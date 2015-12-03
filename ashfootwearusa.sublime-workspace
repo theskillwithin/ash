@@ -1,0 +1,495 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"jQuery",
+				"jquery"
+			],
+			[
+				"distri",
+				"distribute-all-lines"
+			],
+			[
+				"td",
+				"td:l	text-decoration:line-through"
+			],
+			[
+				"owl",
+				"owl.carousel.min.js"
+			],
+			[
+				"pr",
+				"pos:r	position:relative"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "html",
+		"selected_items":
+		[
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"javascript",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"javascrip",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"image",
+				"Emmet: Update Image Size"
+			],
+			[
+				"jade",
+				"Set Syntax: Jade"
+			],
+			[
+				"isntall",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 488.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Austin/Documents/ashfootwearusa"
+	],
+	"file_history":
+	[
+		"/C/Users/Austin/Documents/ashfootwearusa/README.md",
+		"/C/Users/Austin/Documents/Ysw-Starter-Kit/header.jade",
+		"/C/Users/Austin/Desktop/build-starter-files/includes/head.inc.php",
+		"/C/Users/Austin/Documents/ashfootwearusa/index.html",
+		"/C/Users/Austin/Documents/Ysw-Starter-Kit/prepros.cfg",
+		"/C/Users/Austin/Documents/Ysw-Starter-Kit/index.jade",
+		"/C/Users/Austin/Documents/Ysw-Starter-Kit/foot.jade",
+		"/C/Users/Austin/Google Drive/TallMenShoes/index.jade",
+		"/C/Users/Austin/Documents/Ysw-Starter-Kit/assets/css/1-tools/_vars.sass",
+		"/C/Users/Austin/Documents/Ysw-Starter-Kit/assets/css/4-pages/_queries-1000px.sass",
+		"/C/Users/Austin/Documents/Ysw-Starter-Kit/assets/css/ysw-styles.sass",
+		"/C/Users/Austin/Documents/Ysw-Starter-Kit/README.md",
+		"/C/Users/Austin/Documents/Ysw-Starter-Kit/assets/css/4-pages/_example-page-home.sass",
+		"/C/Users/Austin/Documents/Ysw-Starter-Kit/index.html",
+		"/C/Users/Austin/Google Drive/Template1/index.jade",
+		"/C/Users/Austin/Google Drive/TallMenShoes/head.jade",
+		"/C/Users/Austin/Documents/Ysw-Starter-Kit/assets/css/4-pages/_footer-main.sass",
+		"/C/Users/Austin/Documents/Ysw-Starter-Kit/assets/css/4-pages/_header-main.sass",
+		"/C/Users/Austin/Documents/Ysw-Starter-Kit/assets/css/4-pages/_homepage-main.sass",
+		"/C/Users/Austin/Documents/Ysw-Starter-Kit/assets/css/4-pages/_item-main.sass",
+		"/C/Users/Austin/Documents/Ysw-Starter-Kit/assets/css/4-pages/_section-main.sass",
+		"/C/Users/Austin/Documents/Ysw-Starter-Kit/assets/css/4-pages/_queries-570px.sass",
+		"/C/Users/Austin/Documents/Ysw-Starter-Kit/assets/css/4-pages/_queries-788px.sass",
+		"/C/Users/Austin/Documents/Ysw-Starter-Kit/assets/css/4-pages/_queries-380px.sass",
+		"/C/Users/Austin/Documents/Ysw-Starter-Kit/assets/css/4-pages/_queries-1200px.sass",
+		"/C/Users/Austin/Documents/ashfootwearusa/.gitignore",
+		"/C/Users/Austin/Documents/ashfootwearusa/lib/xxxx/ysw-core-scripts.js",
+		"/C/Users/Austin/Desktop/build-starter-files/includes/footer.inc.php",
+		"/C/Users/Austin/Documents/ashfootwearusa/assets/css/ysw-styles.sass",
+		"/C/Users/Austin/Documents/ashfootwearusa/assets/css/main.sass",
+		"/C/Users/Austin/Desktop/build-starter-files/includes/header.inc.php",
+		"/C/Users/Austin/Desktop/build-starter-files/index.php",
+		"/C/Users/Austin/Downloads/DevTips-Starter-Kit-master (2)/DevTips-Starter-Kit-master/assets/css/main.sass",
+		"/C/Users/Austin/Downloads/DevTips-Starter-Kit-master (2)/DevTips-Starter-Kit-master/README.md",
+		"/C/Users/Austin/Desktop/build-starter-files/scss/ysw-styles.sass",
+		"/C/Users/Austin/Desktop/build-starter-files/scss/_header-main.sass",
+		"/C/Users/Austin/Desktop/build-starter-files/scss/_footer-main.sass",
+		"/C/Users/Austin/Desktop/build-starter-files/scss/ysw-checkout-styles.sass",
+		"/C/Users/Austin/Desktop/build-starter-files/scss/_section-main.sass",
+		"/C/Users/Austin/Desktop/build-starter-files/scss/_queries-other.sass",
+		"/C/Users/Austin/Desktop/build-starter-files/scss/_queries-1200px.sass",
+		"/C/Users/Austin/Desktop/build-starter-files/scss/_queries-788px.sass",
+		"/C/Users/Austin/Desktop/build-starter-files/scss/_queries-1000px.sass",
+		"/C/Users/Austin/Desktop/build-starter-files/scss/_queries-570px.sass",
+		"/C/Users/Austin/Desktop/build-starter-files/scss/_queries-380px.sass",
+		"/C/Users/Austin/Desktop/build-starter-files/scss/_item-main.sass",
+		"/C/Users/Austin/Desktop/build-starter-files/scss/_homepage-main.sass",
+		"/C/Users/Austin/Desktop/build-starter-files/scss/_queries-1200px.scss",
+		"/C/Users/Austin/Desktop/build-starter-files/scss/_queries-570px.scss",
+		"/C/Users/Austin/Desktop/build-starter-files/scss/_queries-380px.scss",
+		"/C/Users/Austin/Desktop/build-starter-files/scss/_item-main.scss",
+		"/C/Users/Austin/Desktop/build-starter-files/scss/_homepage-main.scss",
+		"/C/Users/Austin/Desktop/build-starter-files/scss/_footer-main.scss",
+		"/C/Users/Austin/Desktop/build-starter-files/scss/ysw-styles.scss",
+		"/C/Users/Austin/Desktop/build-starter-files/scss/ysw-checkout-styles.scss",
+		"/C/Users/Austin/Desktop/build-starter-files/scss/_section-main.scss",
+		"/C/Users/Austin/Desktop/build-starter-files/scss/_queries-other.scss",
+		"/C/Users/Austin/Desktop/build-starter-files/scss/_queries-1000px.scss",
+		"/C/Users/Austin/Desktop/build-starter-files/scss/_queries-788px.scss",
+		"/C/Users/Austin/Desktop/build-starter-files/scss/_header-main.scss",
+		"/C/Users/Austin/Documents/skyacresairport/ysw-mobile.css",
+		"/C/Users/Austin/Desktop/build-starter-files/gruntfile.js",
+		"/C/Users/Austin/Desktop/build-starter-files/package.json",
+		"/C/Users/Austin/Documents/efamilyfun/EFF-14.css",
+		"/C/Users/Austin/Documents/efamilyfun/ysw-styles.css",
+		"/C/Users/Austin/Documents/efamilyfun/new-galleryview.css",
+		"/C/Users/Austin/Documents/efamilyfun/recentlyviewed.css",
+		"/C/Users/Austin/Documents/efamilyfun/menu-css.css",
+		"/C/Users/Austin/Downloads/yhst-17105658520519-checkout.css",
+		"/C/Users/Austin/Downloads/cloudzoom/cloudzoom.css",
+		"/C/Users/Austin/Downloads/ysw-styles .css",
+		"/C/Users/Austin/Documents/batteryjunction/ysw-styles.css",
+		"/C/Users/Austin/Desktop/style.css",
+		"/C/Users/Austin/Downloads/complete-f6/foundation-6/css/foundation.css",
+		"/C/Users/Austin/Downloads/ysw-styles.css",
+		"/C/Users/Austin/Downloads/ysw-styles.old.css",
+		"/C/Users/Austin/Downloads/batteryjunction-xmas.html",
+		"/C/Users/Austin/Google Drive/LAPG/Page-item-image-thumbs-new.html",
+		"/C/Users/Austin/Downloads/cloudzoom/index.htm",
+		"/C/Users/Austin/Desktop/page-item-image-thumbs.html",
+		"/C/Users/Austin/Downloads/ysw-styles - Copy.css",
+		"/C/Users/Austin/Downloads/cloudzoom/cloudzoom.js",
+		"/C/Users/Austin/Downloads/cloudzoom/3d46d96a85cf935b0518c5c52e035b95.js",
+		"/C/Users/Austin/Google Drive/Template1/lib/xxxx/css/4-pages/footer.sass",
+		"/C/Users/Austin/Google Drive/Template1/index.html",
+		"/C/Users/Austin/Google Drive/Template1/lib/xxxx/css/4-pages/home.sass",
+		"/C/Users/Austin/Google Drive/Template1/lib/xxxx/css/4-pages/header.sass",
+		"/Z/rtml/v4/Alt-Tag (Included in V3)/ysw-alt-tag.rtml",
+		"/C/Users/Austin/Desktop/yswSelect.js",
+		"/C/Users/Austin/Downloads/ext-yswIC.js",
+		"/C/Users/Austin/Downloads/ysw-cart.css",
+		"/C/Users/Austin/Downloads/ysw-cart.js",
+		"/C/Users/Austin/Downloads/ysw-main.css",
+		"/C/Users/Austin/Downloads/yswmain.js",
+		"/C/Users/Austin/AppData/Local/Temp/fz3temp-2/yswmainmobile.js",
+		"/C/Users/Austin/Downloads/mobile3.css",
+		"/C/Users/Austin/Desktop/american-pearl-mobile/ysw-mobile-ap.sass",
+		"/C/Users/Austin/Downloads/widget.css",
+		"/C/Users/Austin/Downloads/reviews.js",
+		"/C/Users/Austin/Downloads/yhst-13171632195427-styles.css",
+		"/C/Users/Austin/Desktop/config.yaml",
+		"/C/Users/Austin/Downloads/puphpet (5)/M66MeG/puphpet/config.yaml",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/Z/rtml/v4/Schema - Rich Snippets/schema.html",
+		"/C/Users/Austin/Desktop/american-pearl-mobile/yswmainmobile.js",
+		"/C/Users/Austin/Desktop/application.report.css",
+		"/C/Users/Austin/Downloads/ysw-tc.css",
+		"/C/Users/Austin/AppData/Local/Temp/fz3temp-1/ysw-teamcovers.js",
+		"/C/Users/Austin/Downloads/teamcovers.js",
+		"/C/Users/Austin/Downloads/functions.js",
+		"/C/Users/Austin/Google Drive/Template1/ysw-cart.css",
+		"/C/Users/Austin/Desktop/american-pearl-mobile/yswmain.js",
+		"/C/Users/Austin/Desktop/american-pearl-mobile/widget.css",
+		"/C/Users/Austin/Desktop/american-pearl-mobile/mobile3.css",
+		"/C/Users/Austin/Desktop/ysw-4pinventory-test.js",
+		"/C/Users/Austin/Downloads/ysw-main (1).css",
+		"/C/Users/Austin/Google Drive/Template1/lib/xxxx/js/functions.js",
+		"/C/Users/Austin/Desktop/K99805.html",
+		"/C/Users/Austin/Google Drive/TallMenShoes/lib/xxx/js/functions.js",
+		"/C/Users/Austin/Downloads/HTML5Viewer.css",
+		"/C/Users/Austin/Desktop/ysw-mobile-ap.sass",
+		"/C/Users/Austin/Desktop/HTML5Viewer.css",
+		"/C/Users/Austin/Google Drive/TallMenShoes/cartcheckout/ysw-cart.sass",
+		"/C/Users/Austin/Google Drive/Template1/ysw-project.sublime-project",
+		"/C/Users/Austin/Google Drive/TallMenShoes/lib/xxx/css/4-pages/header.sass",
+		"/C/Users/Austin/Google Drive/TallMenShoes/lib/xxx/css/4-pages/footer.sass",
+		"/C/Users/Austin/Downloads/thepinkbra-styles-2014.css",
+		"/C/Users/Austin/Google Drive/TallMenShoes/lib/xxx/css/4-pages/section.sass"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 106.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"$light-blue",
+			"}",
+			"{",
+			";",
+			"}",
+			"{",
+			"scSequenceBannerMain",
+			".headerContent",
+			".headerLinks a",
+			"headerlinks",
+			".headerLinks a",
+			".headerRight",
+			".headerLinks",
+			".entry-meta",
+			"data-cloudzoom",
+			".next-thumb-btn",
+			".main-item-image",
+			".main-content.item .item-left .main-item-image-wrapper a.prev-thumb-btn, .main-content.item .item-left .main-item-image-wrapper a.next-thumb-btn",
+			"3.3",
+			"<body",
+			"jquery",
+			"<link>",
+			"</link>",
+			"#yahoo-store-checkout #ys_cart > table > tbody > tr.ys_orderLine.ys_evenRow > td.ys_last.r {",
+			"#yahoo-store-checkout #ys_cart > table > tbody > tr.ys_orderLine.ys_evenRow > td.ys_first {",
+			"(window).width",
+			"1110",
+			"featshopnow",
+			"jQuery('#ys_cart > table > tbody > tr.ys_orderLine.ys_evenRow > td.ys_first').attr('colspan',3);",
+			"yswOR",
+			"copyright",
+			"Â",
+			"copyright",
+			"ys_pageActions",
+			"ys_first",
+			"parse",
+			"idVal",
+			"idVal'",
+			"idVal",
+			"Copyright",
+			"copyright",
+			"Copyright © 2005 - 2013 American Pearl. All rights reserved",
+			"Copyright",
+			"console.log",
+			".click",
+			"change",
+			"change()",
+			"selectDataAndChange",
+			"div#info-table-area",
+			".row",
+			"div#image-area",
+			"div#info-table-area",
+			"yswIC.aE",
+			"internation",
+			"global",
+			"yswIC",
+			"#ys_shippingCalculator",
+			"ys_proceedContainer",
+			"#product-info-table td",
+			"#product-info-table td.add-to-cart",
+			"rating",
+			"rating:",
+			"rating",
+			"div#index-link-area td.index-image",
+			"/www/",
+			"skincarebyalana",
+			"Identificaiton",
+			"report-icon",
+			"beautiful",
+			"jQuery(\"#ys_pageBody\")",
+			"580",
+			"979",
+			"981",
+			"980",
+			".jcarousel-clip-horizontal",
+			"div.jcarousel-clip.jcarousel-clip-horizontal",
+			"#yswform > div:nth-child(9) > div > div.jcarousel-clip.jcarousel-clip-horizontal",
+			".logo",
+			"780",
+			"Noto Sans",
+			"noto",
+			"@media",
+			"main",
+			"#yahoo-store-checkout #ys_cartPage #ys_pageBody #ys_cart table thead tr th",
+			"footer",
+			"#ys_shipBillPage div.ys_pageActions",
+			"font-family",
+			"font-siz",
+			"font",
+			"img/",
+			"height: 48",
+			".expand",
+			"768",
+			".expand",
+			"width: 50%",
+			"margin-left: 14px",
+			".jcarousel-item-horizontal",
+			".jcarousel-clip-horizontal",
+			"()\n",
+			"#description'",
+			"packagin3",
+			"report-icon",
+			"#description",
+			"report-icon",
+			"report icon",
+			"report-icon",
+			"id=\"specs",
+			"#description",
+			"#specs",
+			"id=\"specs",
+			"id=\"specs\"",
+			"id=\"spec",
+			"id=\"specs\"",
+			"id=\"specs",
+			"id=\"specs\"",
+			"id=\"spec",
+			"specs",
+			"don",
+			".jcarousel-container",
+			"#preview .jcarousel-clip-horizontal",
+			"touch",
+			"touchevent",
+			"touch",
+			"jcarousel(",
+			"jcarousel",
+			".jcarousel-item-horizontal",
+			"jcarousel(",
+			"jcarousel"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"\"#\"",
+			"#yahoo-store-checkout",
+			".footer",
+			".header",
+			"right",
+			"",
+			"ITEM PAGE",
+			"lib"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 37.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 48.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "ashfootwearusa.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 250.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
