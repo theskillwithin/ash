@@ -498,7 +498,7 @@ input[type="button"]:focus {
 }
 
 body {
-  margin: 10px;
+  margin: 10px 15px;
   background-color: #ddd;
   overflow-x: hidden;
 }
@@ -631,6 +631,27 @@ article,
 aside,
 footer {
   display: block;
+}
+
+header .left {
+  float: left;
+  height: 100%;
+  background-color: blue;
+  width: 165px;
+}
+
+header .top {
+  width: auto;
+  height: 62px;
+  background-color: red;
+}
+
+header .top ul {
+  display: inline-block;
+}
+
+header .top ul li {
+  float: left;
 }
 
 @media screen and (max-width: 1200px) {
