@@ -31,8 +31,10 @@ h5
   background: white
 .page-home
   text-align: center
-  background-color: green
-  
+  //background-color: green
+  position: relative
+  margin-left: 186px
+  max-width: 945px
   h1
     font-weight: 700
     line-height: 1
@@ -60,3 +62,32 @@ h5
     margin-bottom: 50px
     &:last-child
       margin-bottom: 0px
+  section.newProducts
+    display: flex
+    flex-flow: column wrap
+    justify-content: space-between
+    align-content: space-between
+    height: 25em
+    a 
+      flex: 0 1 49%
+      display: block
+      &:nth-of-type(-n+2)
+        width: 30%
+      &:nth-of-type(3)
+        flex: 0 1 100%
+      &:nth-of-type(n+4)
+        width: 40%
+  .tr-pair
+    display: flex
+    justify-content: space-between
+    border: none
+    background: none
+    div
+      border: 2px solid #333
+      background: #996
+      &:nth-of-type(1)
+        flex: 0 1 35%
+        /*  35%
+      &:nth-of-type(2)
+        flex: 0 1 60%
+        /*  and 60% for 95%, for a gap of 5%

@@ -581,8 +581,7 @@ header {
 
 header .left {
   float: left;
-  height: 100%;
-  background-color: salmon;
+  height: 500px;
   width: 165px;
   position: relative;
   z-index: 9;
@@ -696,7 +695,9 @@ h5 {
 
 .page-home {
   text-align: center;
-  background-color: green;
+  position: relative;
+  margin-left: 186px;
+  max-width: 945px;
 }
 
 .page-home h1 {
@@ -740,6 +741,86 @@ h5 {
 
 .page-home article:last-child {
   margin-bottom: 0px;
+}
+
+.page-home section.newProducts {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column wrap;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-align-content: space-between;
+      -ms-flex-line-pack: justify;
+          align-content: space-between;
+  height: 25em;
+}
+
+.page-home section.newProducts a {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 1 49%;
+      -ms-flex: 0 1 49%;
+          flex: 0 1 49%;
+  display: block;
+}
+
+.page-home section.newProducts a:nth-of-type(-n+2) {
+  width: 30%;
+}
+
+.page-home section.newProducts a:nth-of-type(3) {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 1 100%;
+      -ms-flex: 0 1 100%;
+          flex: 0 1 100%;
+}
+
+.page-home section.newProducts a:nth-of-type(n+4) {
+  width: 40%;
+}
+
+.page-home .tr-pair {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: none;
+  background: none;
+}
+
+.page-home .tr-pair div {
+  border: 2px solid #333;
+  background: #996;
+}
+
+.page-home .tr-pair div:nth-of-type(1) {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 1 35%;
+      -ms-flex: 0 1 35%;
+          flex: 0 1 35%;
+  /*  35% */
+}
+
+.page-home .tr-pair div:nth-of-type(2) {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 1 60%;
+      -ms-flex: 0 1 60%;
+          flex: 0 1 60%;
+  /*  and 60% for 95%, for a gap of 5% */
+}
+
+footer {
+  text-align: center;
+  margin-left: 165px;
 }
 
 @media screen and (max-width: 1200px) {
