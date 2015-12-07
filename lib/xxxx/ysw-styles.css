@@ -581,7 +581,8 @@ header {
 
 header .left {
   float: left;
-  height: 600px;
+  height: 100%;
+  background-color: salmon;
   width: 165px;
   position: relative;
   z-index: 9;
@@ -608,6 +609,7 @@ header .top {
   position: absolute;
   font-size: 12px;
   right: 0;
+  text-transform: uppercase;
 }
 
 header .top ul {
@@ -623,10 +625,26 @@ header .top ul li {
   float: left;
 }
 
+header .top ul li.search {
+  list-style-type: none;
+  background-image: url("/lib/xxxx/search-icon.png");
+  background-repeat: no-repeat;
+  background-position: 0px 3px;
+  padding-left: 18px;
+}
+
 header .top .under {
-  width: 332px;
+  width: auto;
   height: 27px;
   margin-top: 30px;
+  right: 0px;
+  position: absolute;
+  font-size: 10px;
+  line-height: .7;
+}
+
+header .top .under li:first-child {
+  list-style-type: none;
 }
 
 * {
@@ -640,25 +658,48 @@ body {
   font-family: bonvenocflight;
 }
 
+.container {
+  max-width: 1140px;
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+.up {
+  text-transform: uppercase;
+}
+
+.divider {
+  width: 100%;
+  padding: 10px 4px;
+  margin: 20px 0;
+  text-align: center;
+  position: relative;
+}
+
+.line {
+  width: 100%;
+  border: 1px solid black;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  z-index: -1;
+}
+
+h5 {
+  display: inline-block;
+  padding: 5px 30px;
+  background: white;
+}
+
 .page-home {
   text-align: center;
+  background-color: green;
 }
 
-.page-home section {
-  max-width: 600px;
-  margin: 50px auto;
-  padding: 40px;
-  position: relative;
-  background-color: rgba(255, 255, 255, 0.7);
-  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-.page-home section:first-child {
-  background-image: url(../../assets/img/tools.png);
-  background-position: center;
-}
-
-.page-home section h1 {
+.page-home h1 {
   font-weight: 700;
   line-height: 1;
   margin: 20px 0;

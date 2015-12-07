@@ -3,8 +3,8 @@ header
 	height: 60px
 	.left
 		float: left
-		height: 600px
-		//background-color: salmon
+		height: 100%
+		background-color: salmon
 		width: 165px
 		position: relative
 		z-index: 9
@@ -24,6 +24,7 @@ header
 		position: absolute
 		font-size: 12px
 		right: 0
+		text-transform: uppercase
 		ul
 			display: block
 			height: 30px
@@ -33,10 +34,21 @@ header
 			li
 				margin: 5px 10px
 				float: left
+				&.search
+					list-style-type: none
+					background-image: url('/lib/xxxx/search-icon.png')
+					background-repeat: no-repeat
+					background-position: 0px 3px
+					padding-left: 18px
 		.under
 			//background-color: green
-			width: 332px
+			width: auto
 			height: 27px
 			margin-top: 30px
-
+			right: 0px
+			position: absolute
+			font-size: 10px
+			line-height: .7
+			li:first-child
+				list-style-type: none
 
