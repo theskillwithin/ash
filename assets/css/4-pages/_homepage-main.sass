@@ -62,33 +62,26 @@ h5
     margin-bottom: 50px
     &:last-child
       margin-bottom: 0px
-  section.newProducts
-    display: flex
-    flex-flow: column wrap
-    justify-content: space-between
-    align-content: space-between
-    height: 42em
-    width: 672px
-    a 
-      flex: 0 1 49%
-      display: block
-      &:nth-of-type(-n+2)
-        width: 30%
-      &:nth-of-type(3)
-        flex: 0 1 100%
-      &:nth-of-type(n+4)
-        width: 40%
-  .tr-pair
+  .newProducts
     display: flex
     justify-content: space-between
-    border: none
-    background: none
-    div
-      border: 2px solid #333
-      background: #996
-      &:nth-of-type(1)
-        flex: 0 1 35%
-        /*  35%
-      &:nth-of-type(2)
-        flex: 0 1 60%
-        /*  and 60% for 95%, for a gap of 5%
+    height: auto
+    padding: 1em
+  .full
+    flex: 1
+    margin: 0.15em 10px !important
+  .col
+    display: flex
+    flex: 2
+    flex-direction: column
+  .col-item
+    flex: 1
+  .sub-group
+    display: flex
+  .sub-item
+    flex: 2
+    &:first-child
+      flex: 1
+  .col-item, .full
+      border: 2px solid black
+      margin: 0.15em

@@ -8,18 +8,20 @@ include header.jade
 			.line
 			h5.up New Products
 		section.newProducts
-			a(href="#")
-				img(src="http://www.fillmurray.com/263/263", alt="new product")
-			a(href="#")
-				img(src="http://www.fillmurray.com/166/557", alt="new product")
-			.tr-pair
-				a(href="#")
-					img(src="http://www.fillmurray.com/165/263", alt="new product")
-				a(href="#")
+			.col
+				a(href="#").item.col-item
 					img(src="http://www.fillmurray.com/263/263", alt="new product")
-			a(href="#")
-				img(src="http://www.fillmurray.com/262/262", alt="new product")
-			a(href="#")
-				img(src="http://www.fillmurray.com/452/263", alt="new product")
+				a(href="#").item.col-item
+					img(src="http://www.fillmurray.com/262/262", alt="new product")
+			a(href="#").full
+				img(src="http://www.fillmurray.com/166/557", alt="new product")
+			.col
+				.item.sub-group
+					a(href="#").item.sub-item.col-item
+						img(src="http://www.fillmurray.com/165/263", alt="new product")
+					a(href="#").item.sub-item.col-item
+						img(src="http://www.fillmurray.com/263/263", alt="new product")
+				a(href="#").item.col-item
+					img(src="http://www.fillmurray.com/452/263", alt="new product")
 	// HOME PAGE HOME PAGE HOME PAGE HOME PAGE HOME PAGE HOME PAGE HOME PAGE HOME PAGE
 	include footer.jade
