@@ -753,7 +753,6 @@ h5 {
       -ms-flex-pack: justify;
           justify-content: space-between;
   height: auto;
-  padding: 1em;
 }
 
 .page-home .full {
@@ -761,7 +760,7 @@ h5 {
   -webkit-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  margin: 0.15em 10px !important;
+  margin: 0.15em 30px !important;
 }
 
 .page-home .col {
@@ -785,6 +784,7 @@ h5 {
   -webkit-flex: 1;
       -ms-flex: 1;
           flex: 1;
+  padding: 10px;
 }
 
 .page-home .sub-group {
@@ -811,6 +811,10 @@ h5 {
 .page-home .col-item, .page-home .full {
   border: 2px solid black;
   margin: 0.15em;
+}
+
+.page-home .first-item {
+  margin-bottom: 32px;
 }
 
 footer {
