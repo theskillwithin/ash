@@ -78,6 +78,8 @@ h5
     padding: 10px
   .sub-group
     display: flex
+    .item:first-child
+      margin-right: 30px
   .sub-item
     flex: 2
     &:first-child
@@ -87,3 +89,21 @@ h5
       margin: 0.15em
   .first-item 
     margin-bottom: 32px
+  section.bestSellers
+    text-align: center
+    a
+      width: 147px
+      height: 147px
+      margin: auto 15px
+      display: inline-block
+  section.shopByStyle
+    a 
+      position: relative
+      margin: 0px 15px
+      &:first-child
+        margin-left: 0px 
+      &:last-child
+        margin-right: 0px
+    img.add
+      position: absolute
+      right: 0
