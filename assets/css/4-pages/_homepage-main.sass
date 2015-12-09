@@ -1,7 +1,7 @@
 *
   font-family: bonvenocflight
 body
-  margin: 10px 15px
+  margin: 0px
   background-color: white
   overflow-x: hidden
   font-family: bonvenocflight
@@ -18,23 +18,24 @@ body
   margin: 20px 0
   text-align: center
   position: relative
-.line
-  width: 100%
-  border: 1px solid black
-  position: absolute
-  top: 50%
-  transform: translateY(-50%)
-  z-index: -1
-h5
-  display: inline-block
-  padding: 5px 30px
-  background: white
+  .line
+    width: 100%
+    border: 1px solid black
+    position: absolute
+    top: 50%
+    transform: translateY(-50%)
+    z-index: -1
+  h5
+    display: inline-block
+    padding: 5px 30px
+    background: white
 .page-home
   text-align: center
   //background-color: green
   position: relative
   margin-left: 186px
   max-width: 945px
+  margin-right: 10px
   h1
     font-weight: 700
     line-height: 1
@@ -62,20 +63,23 @@ h5
     margin-bottom: 50px
     &:last-child
       margin-bottom: 0px
-  .newProducts
+  section.newProducts //// NEW PRODUCTS
     display: flex
     justify-content: space-between
-    height: auto
+    height: 544px
   .full
-    flex: 1
+    flex: 2
     margin: 0.15em 30px !important
   .col
     display: flex
     flex: 2
     flex-direction: column
+    &:last-child
+      flex: 3
   .col-item
-    flex: 1
+    flex: 2
     padding: 10px
+    height: auto
   .sub-group
     display: flex
     .item:first-child
@@ -83,23 +87,28 @@ h5
   .sub-item
     flex: 2
     &:first-child
-      flex: 1
+      flex: 2
   .col-item, .full
       border: 2px solid black
       margin: 0.15em
   .first-item 
-    margin-bottom: 32px
-  section.bestSellers
+    margin-bottom: 44px
+  section.bestSellers   /// BEST SELLERS
     text-align: center
     a
       width: 147px
       height: 147px
       margin: auto 15px
       display: inline-block
-  section.shopByStyle
+      .hover
+        top: 0px
+        right: 0px
+        left: 0px
+        bottom: 0px
+  section.shopByStyle    /////  SHOP BY STYLE
     a 
       position: relative
-      margin: 0px 15px
+      margin: 0px 10px
       &:first-child
         margin-left: 0px 
       &:last-child
@@ -107,3 +116,27 @@ h5
     img.add
       position: absolute
       right: 0
+  section
+    a 
+      .hover
+        position: absolute
+        top: 10px
+        right: 10px
+        left: 10px
+        bottom: 10px
+        background-color: rgba(0, 0, 0, .741)
+        display: none
+        h5, .price
+          color: white
+        span
+          position: absolute
+          bottom: 10px
+          display: block
+          text-align: center
+          left: 50%
+          transform: translateX(-50%)
+      position: relative
+      &:hover .hover
+        display: block
+      h5
+        background: none
