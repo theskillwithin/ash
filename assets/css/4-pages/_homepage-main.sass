@@ -5,6 +5,8 @@ body
   background-color: white
   overflow-x: hidden
   font-family: bonvenocflight
+  min-height: 100%
+  padding: 0px
 .container
   max-width: 1140px
   width: 100%
@@ -109,6 +111,16 @@ body
     a 
       position: relative
       margin: 0px 10px
+      display: inline-block
+      .hover
+        span
+          width: 100%
+          left: 20%
+          right: auto
+          div
+            font-size: 14px
+            margin-bottom: 20px
+            width: 100%
       &:first-child
         margin-left: 0px 
       &:last-child
@@ -131,10 +143,11 @@ body
         span
           position: absolute
           bottom: 10px
+          left: 15px
           display: block
-          text-align: center
-          left: 50%
-          transform: translateX(-50%)
+          text-align: left
+          //left: 50%
+          //transform: translateX(-50%)
       position: relative
       &:hover .hover
         display: block
