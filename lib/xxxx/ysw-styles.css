@@ -933,7 +933,6 @@ body {
 
 .page-section .grid {
   max-width: 876px;
-  background-color: blue;
   margin-left: 67px;
   height: auto;
 }
@@ -941,9 +940,13 @@ body {
 .page-section .grid .box {
   width: 292px;
   height: 316px;
-  background-color: salmon;
   float: left;
-  border: 1px solid;
+}
+
+.page-section .grid .description div {
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
 }
 
 footer {
