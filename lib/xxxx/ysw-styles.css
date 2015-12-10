@@ -857,13 +857,13 @@ body {
   display: inline-block;
 }
 
-.page-home section.shopByStyle a .hover span {
+.page-home section.shopByStyle a .hover > div {
   width: 100%;
   left: 20%;
   right: auto;
 }
 
-.page-home section.shopByStyle a .hover span div {
+.page-home section.shopByStyle a .hover > div div {
   font-size: 14px;
   margin-bottom: 20px;
   width: 100%;
@@ -900,7 +900,7 @@ body {
   color: white;
 }
 
-.page-home section a .hover span {
+.page-home section a .hover > div {
   position: absolute;
   bottom: 10px;
   left: 15px;
@@ -916,6 +916,36 @@ body {
   background: none;
 }
 
+.page-section {
+  text-align: center;
+  margin-left: 186px;
+  max-width: 945px;
+  width: 100%;
+  margin-right: 10px;
+  height: auto;
+}
+
+.page-section::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.page-section .grid {
+  max-width: 876px;
+  background-color: blue;
+  margin-left: 67px;
+  height: auto;
+}
+
+.page-section .grid .box {
+  width: 292px;
+  height: 316px;
+  background-color: salmon;
+  float: left;
+  border: 1px solid;
+}
+
 footer {
   text-align: center;
   padding-left: 165px;
@@ -927,9 +957,23 @@ footer {
   padding: 5px;
 }
 
+footer .container {
+  margin: 0 auto;
+  text-align: center;
+  text-justify: distribute-all-lines;
+}
+
 footer .right, footer .middle, footer .left {
-  float: left;
   display: inline-block;
+}
+
+footer .right p, footer .middle p, footer .left p {
+  margin: 0px;
+  padding: 0px;
+}
+
+footer .right a {
+  margin: 0 6px;
 }
 
 @media screen and (max-width: 1200px) {
