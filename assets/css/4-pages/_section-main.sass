@@ -14,18 +14,52 @@
   	.box
   		width: 292px
   		height: 316px
+  		position: relative
   		//background-color: salmon
   		float: left
   		//border: 1px solid
   	.description
+  		.first
+	  		float: left
+	  		line-height: 1.2
+	  		width: 118px
+	  	.last
+	  		text-align: right
   		div
-  			display: inline-block
-  			vertical-align: top
   			text-align: left
+  			margin: 0 15px
+  		.price
+  			margin-left: 0px
+  			float: none
+  		.price, .sale-price
+  			letter-spacing: 4px
   	.new-tag:before
   		content: ''
   		position: absolute
-  		right: 27px
+  		right: 15px
   		width: 100px 
   		height: 32px
   		background: url('/lib/xxxx/new-tag.png')
+  	.sale-tag:before
+  		content: ''
+  		position: absolute
+  		right: 15px
+  		width: 100px 
+  		height: 32px
+  		background: url('/lib/xxxx/sale-tag.png')
+  	.sale-tag
+  		.price
+  			text-decoration: line-through
+  			margin-right: 10px
+  			width: 48px
+  			display: inline-block
+  		.sale-price
+  			width: 48px
+  			margin-left: 10px
+  			display: inline-block
+  			background-color: $yellow
+  			position: absolute
+  			text-align: center
+  			border-left: 1px solid $btncolor
+  			border-top: 1px solid $yellow
+  			border-bottom: 1px solid $yellow

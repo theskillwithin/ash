@@ -361,20 +361,20 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
   display: inline-block;
-  height: 38px;
-  padding: 0 30px;
-  color: #555;
+  height: 34px;
+  padding: 0 11px;
+  color: #959595;
   text-align: center;
-  font-size: 11px;
-  font-weight: 600;
-  line-height: 38px;
-  letter-spacing: .1rem;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: .05px;
   text-transform: uppercase;
   text-decoration: none;
   white-space: nowrap;
   background-color: transparent;
-  border-radius: 4px;
-  border: 1px solid #bbb;
+  border-radius: 1px;
+  border: 1px solid #959595;
   cursor: pointer;
   box-sizing: border-box;
 }
@@ -940,22 +940,69 @@ body {
 .page-section .grid .box {
   width: 292px;
   height: 316px;
+  position: relative;
   float: left;
 }
 
+.page-section .grid .description .first {
+  float: left;
+  line-height: 1.2;
+  width: 118px;
+}
+
+.page-section .grid .description .last {
+  text-align: right;
+}
+
 .page-section .grid .description div {
-  display: inline-block;
-  vertical-align: top;
   text-align: left;
+  margin: 0 15px;
+}
+
+.page-section .grid .description .price {
+  margin-left: 0px;
+  float: none;
+}
+
+.page-section .grid .description .price, .page-section .grid .description .sale-price {
+  letter-spacing: 4px;
 }
 
 .page-section .grid .new-tag:before {
   content: '';
   position: absolute;
-  right: 27px;
+  right: 15px;
   width: 100px;
   height: 32px;
   background: url("/lib/xxxx/new-tag.png");
+}
+
+.page-section .grid .sale-tag:before {
+  content: '';
+  position: absolute;
+  right: 15px;
+  width: 100px;
+  height: 32px;
+  background: url("/lib/xxxx/sale-tag.png");
+}
+
+.page-section .grid .sale-tag .price {
+  text-decoration: line-through;
+  margin-right: 10px;
+  width: 48px;
+  display: inline-block;
+}
+
+.page-section .grid .sale-tag .sale-price {
+  width: 48px;
+  margin-left: 10px;
+  display: inline-block;
+  background-color: #ffff00;
+  position: absolute;
+  text-align: center;
+  border-left: 1px solid #959595;
+  border-top: 1px solid #ffff00;
+  border-bottom: 1px solid #ffff00;
 }
 
 footer {
