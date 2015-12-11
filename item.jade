@@ -6,8 +6,8 @@ html(lang='en')
 		// ITEM  ITEM  ITEM  ITEM  ITEM  ITEM  ITEM  ITEM  ITEM  ITEM
 		.container
 			.page-item
-				.main
-					.image
+				section.main
+					section.image
 						img(src="http://fillmurray.com/450/400", alt="Main image")
 						.carousel
 							.left-arrow
@@ -20,7 +20,7 @@ html(lang='en')
 								img(src="http://fillmurray.com/165/149", alt="Thumb")
 							.right-arrow
 								img(src="lib/xxxx/arrow-right.png", alt="Next")
-					.options
+					section.options
 						h3 AZIMUT Nappa Black
 						h3.price $000
 						h5 SIZE:
@@ -38,6 +38,154 @@ html(lang='en')
 							.box.black
 							.box.grey
 							.box.white
-						h5 QUANTITY
+						h5 QUANTITY	
+						select#qty(name="")
+							option(value="1") 1
+							option(value="2") 2
+							option(value="3") 3
+							option(value="4") 4
+							option(value="5") 5
+							option(value="6") 6
+							option(value="7") 7
+							option(value="8") 8
+							option(value="9") 9
+						input(type="button" alt="Add To Cart" value="Add To Cart" class="addToCart")
+						h5 SHARE THIS STYLE:
+						.social
+							a(href="#")
+								img(src="lib/xxxx/social-fb.png", alt="Facebook")
+							a(href="#")
+								img(src="lib/xxxx/social-twitter.png", alt="Twitter")
+							a(href="#")
+								img(src="lib/xxxx/social-email.png", alt="Email")
+							a(href="#")
+								img(src="lib/xxxx/social-share.png", alt="Share")
+							a(href="#")
+								img(src="lib/xxxx/social-pinterest.png", alt="Pinterest")
+							a(href="#")
+								img(src="lib/xxxx/social-ig.png", alt="Instagram")
+				section.description
+					h4 Description
+					p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora enim provident odit. Voluptas minus molestiae a odio, facere consectetur aliquam, eaque recusandae. Delectus, obcaecati, at? Molestias in beatae enim praesentium.  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo ipsam quam qui expedita blanditiis facilis voluptatibus, alias, atque laborum, nisi corporis officia possimus distinctio. Nobis consequatur, debitis molestias fugit vitae.  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos totam, a iste. Voluptatum facilis id molestias facere placeat perferendis error debitis accusantium, qui a odio, nisi est libero ut natus?
+				section.divider
+					.line
+					h5.up You May Also Like
+				section.page-section
+					.grid
+						.box
+							img(src="http://fillmurray.com/262/240", alt="Product")
+							.description
+								.first
+									h5 AZIMUT
+									h5 Nappa Black
+									.price $000
+								.last
+									input(type="button" value="Add To Cart")
+						.box.new-tag
+							img(src="http://fillmurray.com/262/240", alt="Product")
+							.description
+								.first
+									h5 AZIMUT
+									h5 Nappa Black
+									.price $000
+								.last
+									input(type="button" value="Add To Cart")
+						.box
+							img(src="http://fillmurray.com/262/240", alt="Product")
+							.description
+								.first
+									h5 AZIMUT
+									h5 Nappa Black
+									.price $000
+								.last
+									input(type="button" value="Add To Cart")
+						.box
+							img(src="http://fillmurray.com/262/240", alt="Product")
+							.description
+								.first
+									h5 AZIMUT
+									h5 Nappa Black
+									.price $000
+								.last
+									input(type="button" value="Add To Cart")
+						.box.sale-tag
+							img(src="http://fillmurray.com/262/240", alt="Product")
+							.description
+								.first
+									h5 AZIMUT
+									h5 Nappa Black
+									.price $000
+									.sale-price $111
+								.last
+									input(type="button" value="Add To Cart")
+						.box
+							img(src="http://fillmurray.com/262/240", alt="Product")
+							.description
+								.first
+									h5 AZIMUT
+									h5 Nappa Black
+									.price $000
+								.last
+									input(type="button" value="Add To Cart")
+				section.divider
+					.line
+					h5.up We Recommend
+				section.page-section
+					.grid
+						.box
+							img(src="http://fillmurray.com/262/240", alt="Product")
+							.description
+								.first
+									h5 AZIMUT
+									h5 Nappa Black
+									.price $000
+								.last
+									input(type="button" value="Add To Cart")
+						.box.new-tag
+							img(src="http://fillmurray.com/262/240", alt="Product")
+							.description
+								.first
+									h5 AZIMUT
+									h5 Nappa Black
+									.price $000
+								.last
+									input(type="button" value="Add To Cart")
+						.box
+							img(src="http://fillmurray.com/262/240", alt="Product")
+							.description
+								.first
+									h5 AZIMUT
+									h5 Nappa Black
+									.price $000
+								.last
+									input(type="button" value="Add To Cart")
+						.box
+							img(src="http://fillmurray.com/262/240", alt="Product")
+							.description
+								.first
+									h5 AZIMUT
+									h5 Nappa Black
+									.price $000
+								.last
+									input(type="button" value="Add To Cart")
+						.box.sale-tag
+							img(src="http://fillmurray.com/262/240", alt="Product")
+							.description
+								.first
+									h5 AZIMUT
+									h5 Nappa Black
+									.price $000
+									.sale-price $111
+								.last
+									input(type="button" value="Add To Cart")
+						.box
+							img(src="http://fillmurray.com/262/240", alt="Product")
+							.description
+								.first
+									h5 AZIMUT
+									h5 Nappa Black
+									.price $000
+								.last
+									input(type="button" value="Add To Cart")
 		// ITEM  ITEM  ITEM  ITEM  ITEM  ITEM  ITEM  ITEM  ITEM  ITEM
 		include footer.jade

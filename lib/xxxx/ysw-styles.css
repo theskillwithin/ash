@@ -1017,41 +1017,50 @@ body {
   margin-left: 186px;
   max-width: 945px;
   margin-right: 10px;
-  background-color: salmon;
 }
 
-.page-item .main {
-  width: 780px;
+.page-item h5 {
+  margin-top: 20px;
+}
+
+.page-item .price, .page-item .size a {
+  color: #959595;
+}
+
+.page-item .main, .page-item .description {
+  width: 877px;
   height: 600px;
-  background-color: green;
   margin-left: auto;
-}
-
-.page-item .main .image {
-  width: 555px;
-  height: auto;
-  background-color: lavender;
-  display: inline-block;
-  vertical-align: top;
-}
-
-.page-item .main .carousel {
+  text-align: full;
   position: relative;
 }
 
-.page-item .main .carousel .pdpthumb {
+.page-item .main .image, .page-item .description .image {
+  width: 555px;
+  height: auto;
+  display: inline-block;
+  vertical-align: top;
+  position: absolute;
+  left: 0;
+}
+
+.page-item .main .carousel, .page-item .description .carousel {
+  position: relative;
+}
+
+.page-item .main .carousel .pdpthumb, .page-item .description .carousel .pdpthumb {
   display: inline-block;
   max-width: 165px;
   max-height: 149px;
   margin: auto;
 }
 
-.page-item .main .carousel .pdpthumb img {
+.page-item .main .carousel .pdpthumb img, .page-item .description .carousel .pdpthumb img {
   width: 100%;
   height: auto;
 }
 
-.page-item .main .carousel .left-arrow, .page-item .main .carousel .right-arrow {
+.page-item .main .carousel .left-arrow, .page-item .main .carousel .right-arrow, .page-item .description .carousel .left-arrow, .page-item .description .carousel .right-arrow {
   position: absolute;
   vertical-align: middle;
   display: inline-block;
@@ -1061,56 +1070,123 @@ body {
           transform: translateY(-50%);
 }
 
-.page-item .main .carousel .left-arrow {
+.page-item .main .carousel .left-arrow, .page-item .description .carousel .left-arrow {
   left: 0;
 }
 
-.page-item .main .carousel .right-arrow {
+.page-item .main .carousel .right-arrow, .page-item .description .carousel .right-arrow {
   right: 0;
 }
 
-.page-item .main .options {
-  width: 195px;
+.page-item .main .options, .page-item .description .options {
+  position: absolute;
+  right: 0;
+  width: 262px;
   height: 500px;
   display: inline-block;
-  background-color: OliveDrab;
   text-align: left;
 }
 
-.page-item .main .options .price {
-  margin-bottom: 10px;
-}
-
-.page-item .main .options .size {
+.page-item .main .options .size, .page-item .description .options .size {
   background-color: #FFF;
   text-align: center;
   margin-top: 8px;
 }
 
-.page-item .main .options .size a {
+.page-item .main .options .size a, .page-item .description .options .size a {
   width: 25%;
   display: inline-block;
   margin: 5px 0px;
 }
 
-.page-item .main .options .color .box {
+.page-item .main .options .color .box, .page-item .description .options .color .box {
   border: 1px solid #959595;
   width: 30px;
   height: 30px;
   display: inline-block;
-  margin-top: 8px;
 }
 
-.page-item .main .options .color .black {
+.page-item .main .options .color .black, .page-item .description .options .color .black {
   background-color: black;
 }
 
-.page-item .main .options .color .white {
+.page-item .main .options .color .white, .page-item .description .options .color .white {
   background-color: white;
 }
 
-.page-item .main .options .color .grey {
+.page-item .main .options .color .grey, .page-item .description .options .color .grey {
   background-color: #c2c2c2;
+}
+
+.page-item .main #qty, .page-item .description #qty {
+  width: 165px;
+  height: 47px;
+  padding-left: 10px;
+}
+
+.page-item .main .addToCart, .page-item .description .addToCart {
+  width: 262px;
+  height: 49px;
+  background-color: white;
+  margin-top: 20px;
+}
+
+.page-item .main .social, .page-item .description .social {
+  width: 200px;
+}
+
+.page-item .main .social a, .page-item .description .social a {
+  width: 16%;
+  display: inline-block;
+  text-align: center;
+}
+
+.page-item .description {
+  height: auto;
+}
+
+.page-item .description p {
+  font-size: 12px;
+  padding-bottom: 0px;
+}
+
+.page-item .description h4 {
+  text-align: left;
+  width: 153px;
+  border-bottom: 1px solid #959595;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.page-item .divider h5.up {
+  margin-top: 0px;
+}
+
+.page-item .page-section {
+  margin-left: 0px !important;
+  position: relative;
+}
+
+.page-item .page-section .grid {
+  margin: auto;
+  position: relative;
+}
+
+.page-item .page-section .grid .description {
+  position: relative;
+}
+
+.page-item .page-section .grid .description .last {
+  text-align: left;
+}
+
+.page-item .page-section div.first {
+  line-height: 1 !important;
+}
+
+.page-item .page-section div.first h5 {
+  margin: 5px 0px;
 }
 
 footer {
