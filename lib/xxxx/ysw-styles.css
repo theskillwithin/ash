@@ -1035,13 +1035,6 @@ body {
   vertical-align: top;
 }
 
-.page-item .main .options {
-  width: 195px;
-  height: 500px;
-  display: inline-block;
-  background-color: OliveDrab;
-}
-
 .page-item .main .carousel {
   position: relative;
 }
@@ -1074,6 +1067,50 @@ body {
 
 .page-item .main .carousel .right-arrow {
   right: 0;
+}
+
+.page-item .main .options {
+  width: 195px;
+  height: 500px;
+  display: inline-block;
+  background-color: OliveDrab;
+  text-align: left;
+}
+
+.page-item .main .options .price {
+  margin-bottom: 10px;
+}
+
+.page-item .main .options .size {
+  background-color: #FFF;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.page-item .main .options .size a {
+  width: 25%;
+  display: inline-block;
+  margin: 5px 0px;
+}
+
+.page-item .main .options .color .box {
+  border: 1px solid #959595;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  margin-top: 8px;
+}
+
+.page-item .main .options .color .black {
+  background-color: black;
+}
+
+.page-item .main .options .color .white {
+  background-color: white;
+}
+
+.page-item .main .options .color .grey {
+  background-color: #c2c2c2;
 }
 
 footer {

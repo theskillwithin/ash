@@ -28,30 +28,6 @@
 	"buffers":
 	[
 		{
-			"file": "index.jade",
-			"settings":
-			{
-				"buffer_size": 5950,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "head.jade",
-			"settings":
-			{
-				"buffer_size": 688,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "header.jade",
-			"settings":
-			{
-				"buffer_size": 900,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "assets/css/4-pages/_homepage-main.sass",
 			"settings":
 			{
@@ -60,18 +36,21 @@
 			}
 		},
 		{
-			"file": "assets/css/4-pages/_section-main.sass",
+			"contents": "doctype html\nhtml(lang='en')\n	include head.jade\n	body\n		include header.jade\n		// ITEM  ITEM  ITEM  ITEM  ITEM  ITEM  ITEM  ITEM  ITEM  ITEM\n		.container\n			.page-item\n				.main\n					.image\n						img(src=\"http://fillmurray.com/450/400\", alt=\"Main image\")\n						.carousel\n							.left-arrow\n								img(src=\"lib/xxxx/arrow-left.png\", alt=\"Prev\")\n							.pdpthumb\n								img(src=\"http://fillmurray.com/165/149\", alt=\"Thumb\")\n							.pdpthumb\n								img(src=\"http://fillmurray.com/165/149\", alt=\"Thumb\")\n							.pdpthumb\n								img(src=\"http://fillmurray.com/165/149\", alt=\"Thumb\")\n							.right-arrow\n								img(src=\"lib/xxxx/arrow-right.png\", alt=\"Next\")\n					.options\n						h3 AZIMUT Nappa Black\n						h3.price $000\n						h5 SIZE:\n						.size\n							a(href=\"\") 35\n							a(href=\"\") 36\n							a(href=\"\") 37\n							a(href=\"\") 38\n							a(href=\"\") 39\n							a(href=\"\") 40\n							a(href=\"\") 41\n							a(href=\"\") 42\n						h5 COLOR:\n						.color\n							.box.black\n							.box.grey\n							.box.white\n						h5 QUANTITY\n						  \n		// ITEM  ITEM  ITEM  ITEM  ITEM  ITEM  ITEM  ITEM  ITEM  ITEM\n		include footer.jade",
+			"file": "item.jade",
+			"file_size": 1141,
+			"file_write_time": 130942639740468981,
 			"settings":
 			{
-				"buffer_size": 595,
+				"buffer_size": 1108,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "section.jade",
+			"file": "assets/css/4-pages/_item-main.sass",
 			"settings":
 			{
-				"buffer_size": 4283,
+				"buffer_size": 1344,
 				"line_ending": "Windows"
 			}
 		}
@@ -152,10 +131,19 @@
 	],
 	"file_history":
 	[
+		"/C/Users/Austin/Google Drive/TallMenShoes/item.jade",
+		"/C/Users/Austin/Documents/ashfootwearusa/assets/css/4-pages/_section-main.sass",
+		"/C/Users/Austin/Documents/ashfootwearusa/header.jade",
+		"/C/Users/Austin/Documents/ashfootwearusa/assets/css/4-pages/_header-main.sass",
+		"/C/Users/Austin/Documents/ashfootwearusa/assets/css/1-tools/_vars.sass",
+		"/C/Users/Austin/Documents/ashfootwearusa/assets/css/2-basics/_buttons.sass",
+		"/C/Users/Austin/Documents/ashfootwearusa/index.jade",
+		"/C/Users/Austin/Documents/ashfootwearusa/head.jade",
+		"/C/Users/Austin/Documents/ashfootwearusa/assets/css/ysw-styles.sass",
+		"/C/Users/Austin/AppData/Local/Temp/fz3temp-1/ysw-core-scripts.js",
 		"/C/Users/Austin/Documents/ashfootwearusa/assets/css/4-pages/_footer-main.sass",
 		"/C/Users/Austin/Documents/ashfootwearusa/section.jade",
 		"/C/Users/Austin/Documents/ashfootwearusa/footer.jade",
-		"/C/Users/Austin/Documents/ashfootwearusa/assets/css/4-pages/_header-main.sass",
 		"/C/Users/Austin/Documents/ashfootwearusa/README.md",
 		"/C/Users/Austin/Documents/Ysw-Starter-Kit/header.jade",
 		"/C/Users/Austin/Desktop/build-starter-files/includes/head.inc.php",
@@ -184,7 +172,6 @@
 		"/C/Users/Austin/Documents/ashfootwearusa/.gitignore",
 		"/C/Users/Austin/Documents/ashfootwearusa/lib/xxxx/ysw-core-scripts.js",
 		"/C/Users/Austin/Desktop/build-starter-files/includes/footer.inc.php",
-		"/C/Users/Austin/Documents/ashfootwearusa/assets/css/ysw-styles.sass",
 		"/C/Users/Austin/Documents/ashfootwearusa/assets/css/main.sass",
 		"/C/Users/Austin/Desktop/build-starter-files/includes/header.inc.php",
 		"/C/Users/Austin/Desktop/build-starter-files/index.php",
@@ -271,15 +258,7 @@
 		"/C/Users/Austin/Desktop/american-pearl-mobile/widget.css",
 		"/C/Users/Austin/Desktop/american-pearl-mobile/mobile3.css",
 		"/C/Users/Austin/Desktop/ysw-4pinventory-test.js",
-		"/C/Users/Austin/Downloads/ysw-main (1).css",
-		"/C/Users/Austin/Google Drive/Template1/lib/xxxx/js/functions.js",
-		"/C/Users/Austin/Desktop/K99805.html",
-		"/C/Users/Austin/Google Drive/TallMenShoes/lib/xxx/js/functions.js",
-		"/C/Users/Austin/Downloads/HTML5Viewer.css",
-		"/C/Users/Austin/Desktop/ysw-mobile-ap.sass",
-		"/C/Users/Austin/Desktop/HTML5Viewer.css",
-		"/C/Users/Austin/Google Drive/TallMenShoes/cartcheckout/ysw-cart.sass",
-		"/C/Users/Austin/Google Drive/Template1/ysw-project.sublime-project"
+		"/C/Users/Austin/Downloads/ysw-main (1).css"
 	],
 	"find":
 	{
@@ -298,6 +277,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"page-home",
+			"middle",
+			"30px",
+			".mainItemImagefancy",
 			" ",
 			"span",
 			"section.shopByStyle",
@@ -421,11 +404,7 @@
 			"id=\"specs\"",
 			"id=\"spec",
 			"specs",
-			"don",
-			".jcarousel-container",
-			"#preview .jcarousel-clip-horizontal",
-			"touch",
-			"touchevent"
+			"don"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -452,278 +431,11 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.jade",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5950,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1328,
-								1270
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content"
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Seti.tmTheme",
-							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 759.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "head.jade",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 688,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								688,
-								688
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content"
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Seti.tmTheme",
-							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "header.jade",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 900,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								44,
-								44
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content"
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Seti.tmTheme",
-							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
 					"file": "assets/css/4-pages/_homepage-main.sass",
 					"semi_transient": false,
 					"settings":
@@ -735,8 +447,8 @@
 						"selection":
 						[
 							[
-								161,
-								161
+								517,
+								517
 							]
 						],
 						"settings":
@@ -744,31 +456,6 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
@@ -779,6 +466,16 @@
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
@@ -789,16 +486,31 @@
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
-								"bh_square_content"
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Seti.tmTheme",
 							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
@@ -806,27 +518,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 138.0,
+						"translation.y": 320.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "assets/css/4-pages/_section-main.sass",
+					"buffer": 1,
+					"file": "item.jade",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 595,
+						"buffer_size": 1108,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								339,
-								339
+								1022,
+								1022
 							]
 						],
 						"settings":
@@ -834,31 +546,6 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
@@ -869,94 +556,16 @@
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content"
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Seti.tmTheme",
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "section.jade",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4283,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1087,
-								1087
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
@@ -967,26 +576,129 @@
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
-								"bh_square_content"
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Seti.tmTheme",
 							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 276.0,
+						"translation.y": 138.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "assets/css/4-pages/_item-main.sass",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1344,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								918,
+								918
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Seti.tmTheme",
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 690.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
