@@ -1,0 +1,45 @@
+doctype html
+html(lang='en')
+	include head.jade
+	body
+		include header.jade
+		// SECTION SECTION SECTION SECTION SECTION SECTION SECTION
+		.container
+			.page-section-totallook
+				section.totalLook
+					mixin totalLook(url,img)
+						a(href=href)
+							.hover
+								div
+									div
+										h5 AZIMUT
+										h5 Nappa Black
+										.price $000
+									div
+										h5 AZIMUT
+										h5 Nappa Black
+										.price $000
+									div
+										h5 AZIMUT
+										h5 Nappa Black
+										.price $000
+									div
+										h5 AZIMUT
+										h5 Nappa Black
+										.price $000
+							img(src="lib/xxxx/add.png", alt="Add To Cart").add
+							img(src=url, alt="Shop By Style")
+					+totalLook('http://www.fillmurray.com/264/475','#')
+					+totalLook('http://www.fillmurray.com/264/475','#')
+					+totalLook('http://www.fillmurray.com/264/475','#')
+					+totalLook('http://www.fillmurray.com/264/475','#')
+					+totalLook('http://www.fillmurray.com/264/475','#')
+					+totalLook('http://www.fillmurray.com/264/475','#')
+					+totalLook('http://www.fillmurray.com/264/475','#')
+					+totalLook('http://www.fillmurray.com/264/475','#')
+					+totalLook('http://www.fillmurray.com/264/475','#')
+					+totalLook('http://www.fillmurray.com/264/475','#')
+					+totalLook('http://www.fillmurray.com/264/475','#')
+					+totalLook('http://www.fillmurray.com/264/475','#')
+			// SECTION SECTION SECTION SECTION SECTION SECTION SECTION
+		include footer.jade

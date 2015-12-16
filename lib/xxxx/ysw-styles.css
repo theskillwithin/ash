@@ -922,6 +922,65 @@ body {
   background: none;
 }
 
+.page-home .popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-color: white;
+  width: 652px;
+  height: 260px;
+}
+
+.page-home .popup .left, .page-home .popup .right {
+  display: inline-block;
+  position: absolute;
+  text-align: left;
+}
+
+.page-home .popup .left {
+  left: 0;
+}
+
+.page-home .popup .left h5 {
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-bottom: 0px;
+}
+
+.page-home .popup .left p {
+  margin-top: 0px;
+  padding: 0px;
+  padding-left: 20px;
+}
+
+.page-home .popup .left form {
+  margin-left: 20px;
+}
+
+.page-home .popup .left form input {
+  display: block;
+  margin-top: 20px;
+}
+
+.page-home .popup .left form input[type='text'] {
+  font-size: 12px;
+  width: 272px;
+  height: 30px;
+}
+
+.page-home .popup .right {
+  right: 0;
+}
+
+.page-home .popup .right .closeBtn {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
 .page-section {
   text-align: center;
   margin-left: 186px;
@@ -1009,6 +1068,91 @@ body {
   border-left: 1px solid #959595;
   border-top: 1px solid #ffff00;
   border-bottom: 1px solid #ffff00;
+}
+
+.page-section-totallook {
+  text-align: center;
+  margin-left: 186px;
+  max-width: 945px;
+  width: 100%;
+  margin-right: 10px;
+  height: auto;
+}
+
+.page-section-totallook::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.page-section-totallook .grid {
+  max-width: 876px;
+  margin-left: 67px;
+  height: auto;
+}
+
+.page-section-totallook .grid .box {
+  width: 292px;
+  height: 316px;
+  position: relative;
+  float: left;
+}
+
+.page-section-totallook section.totalLook a {
+  position: relative;
+  margin: 0px 10px;
+  display: inline-block;
+}
+
+.page-section-totallook section.totalLook a .hover > div {
+  width: 100%;
+  left: 20%;
+  right: auto;
+}
+
+.page-section-totallook section.totalLook a .hover > div div {
+  font-size: 14px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.page-section-totallook section.totalLook img.add {
+  position: absolute;
+  right: 0;
+}
+
+.page-section-totallook section.totalLook a {
+  position: relative;
+}
+
+.page-section-totallook section.totalLook a .hover {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  left: 10px;
+  bottom: 10px;
+  background-color: rgba(0, 0, 0, 0.741);
+  display: none;
+}
+
+.page-section-totallook section.totalLook a .hover h5, .page-section-totallook section.totalLook a .hover .price {
+  color: white;
+}
+
+.page-section-totallook section.totalLook a .hover > div {
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
+  display: block;
+  text-align: left;
+}
+
+.page-section-totallook section.totalLook a:hover .hover {
+  display: block;
+}
+
+.page-section-totallook section.totalLook a h5 {
+  background: none;
 }
 
 .page-item {

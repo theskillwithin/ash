@@ -72,42 +72,30 @@ html(lang='en')
 					h5.up You May Also Like
 				section.page-section
 					.grid
-						.box
-							img(src="http://fillmurray.com/262/240", alt="Product")
-							.description
-								.first
-									h5 AZIMUT
-									h5 Nappa Black
-									.price $000
-								.last
-									input(type="button" value="Add To Cart")
-						.box.new-tag
-							img(src="http://fillmurray.com/262/240", alt="Product")
-							.description
-								.first
-									h5 AZIMUT
-									h5 Nappa Black
-									.price $000
-								.last
-									input(type="button" value="Add To Cart")
-						.box
-							img(src="http://fillmurray.com/262/240", alt="Product")
-							.description
-								.first
-									h5 AZIMUT
-									h5 Nappa Black
-									.price $000
-								.last
-									input(type="button" value="Add To Cart")
-						.box
-							img(src="http://fillmurray.com/262/240", alt="Product")
-							.description
-								.first
-									h5 AZIMUT
-									h5 Nappa Black
-									.price $000
-								.last
-									input(type="button" value="Add To Cart")
+						mixin box(img,url,txt,txt2,price)
+							.box
+								img(src=img, alt="Product")
+								.description
+									.first
+										h5=txt
+										h5=txt2
+										.price=price
+									.last
+										input(type="button" value="Add To Cart")
+						mixin box-new-tag(img,url,txt,txt2,price)
+							.box.new-tag
+								img(src=img, alt="Product")
+								.description
+									.first
+										h5=txt
+										h5=txt2
+										.price=price
+									.last
+										input(type="button" value="Add To Cart")
+						+box('http://fillmurray.com/262/240','#','AZIMUT','Nappa Black','$000')
+						+box-new-tag('http://fillmurray.com/262/240','#','AZIMUT','Nappa Black','$000')
+						+box('http://fillmurray.com/262/240','#','AZIMUT','Nappa Black','$000')
+						+box('http://fillmurray.com/262/240','#','AZIMUT','Nappa Black','$000')
 						.box.sale-tag
 							img(src="http://fillmurray.com/262/240", alt="Product")
 							.description
@@ -118,56 +106,16 @@ html(lang='en')
 									.sale-price $111
 								.last
 									input(type="button" value="Add To Cart")
-						.box
-							img(src="http://fillmurray.com/262/240", alt="Product")
-							.description
-								.first
-									h5 AZIMUT
-									h5 Nappa Black
-									.price $000
-								.last
-									input(type="button" value="Add To Cart")
+						+box('http://fillmurray.com/262/240','#','AZIMUT','Nappa Black','$000')
 				section.divider
 					.line
 					h5.up We Recommend
 				section.page-section
 					.grid
-						.box
-							img(src="http://fillmurray.com/262/240", alt="Product")
-							.description
-								.first
-									h5 AZIMUT
-									h5 Nappa Black
-									.price $000
-								.last
-									input(type="button" value="Add To Cart")
-						.box.new-tag
-							img(src="http://fillmurray.com/262/240", alt="Product")
-							.description
-								.first
-									h5 AZIMUT
-									h5 Nappa Black
-									.price $000
-								.last
-									input(type="button" value="Add To Cart")
-						.box
-							img(src="http://fillmurray.com/262/240", alt="Product")
-							.description
-								.first
-									h5 AZIMUT
-									h5 Nappa Black
-									.price $000
-								.last
-									input(type="button" value="Add To Cart")
-						.box
-							img(src="http://fillmurray.com/262/240", alt="Product")
-							.description
-								.first
-									h5 AZIMUT
-									h5 Nappa Black
-									.price $000
-								.last
-									input(type="button" value="Add To Cart")
+						+box('http://fillmurray.com/262/240','#','AZIMUT','Nappa Black','$000')
+						+box-new-tag('http://fillmurray.com/262/240','#','AZIMUT','Nappa Black','$000')
+						+box('http://fillmurray.com/262/240','#','AZIMUT','Nappa Black','$000')
+						+box('http://fillmurray.com/262/240','#','AZIMUT','Nappa Black','$000')
 						.box.sale-tag
 							img(src="http://fillmurray.com/262/240", alt="Product")
 							.description
@@ -178,14 +126,6 @@ html(lang='en')
 									.sale-price $111
 								.last
 									input(type="button" value="Add To Cart")
-						.box
-							img(src="http://fillmurray.com/262/240", alt="Product")
-							.description
-								.first
-									h5 AZIMUT
-									h5 Nappa Black
-									.price $000
-								.last
-									input(type="button" value="Add To Cart")
+						+box('http://fillmurray.com/262/240','#','AZIMUT','Nappa Black','$000')
 		// ITEM  ITEM  ITEM  ITEM  ITEM  ITEM  ITEM  ITEM  ITEM  ITEM
 		include footer.jade

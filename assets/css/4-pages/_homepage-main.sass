@@ -153,3 +153,40 @@ body
         display: block
       h5
         background: none
+  .popup
+    position: fixed
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+    background-color: rgba(255, 255, 255,1)
+    width: 652px
+    height: 260px
+    .left, .right
+      display: inline-block
+      position: absolute
+      text-align: left
+    .left
+      left: 0
+      h5
+        margin-top: 30px
+        margin-left: 20px
+        margin-bottom: 0px
+      p 
+        margin-top: 0px
+        padding: 0px
+        padding-left: 20px
+      form
+        margin-left: 20px
+        input
+          display: block
+          margin-top: 20px
+          &[type='text']
+            font-size: 12px
+            width: 272px
+            height: 30px
+    .right
+      right: 0
+      .closeBtn
+        position: absolute
+        top: 0
+        right: 0

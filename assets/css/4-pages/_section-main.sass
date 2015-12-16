@@ -63,3 +63,66 @@
   			border-left: 1px solid $btncolor
   			border-top: 1px solid $yellow
   			border-bottom: 1px solid $yellow
+
+.page-section-totallook
+  text-align: center
+  margin-left: 186px
+  max-width: 945px
+  width: 100%
+  margin-right: 10px
+  height: auto
+  +clearfix
+  .grid
+    max-width: 876px
+    //background-color: blue
+    margin-left: 67px
+    height: auto
+    .box
+      width: 292px
+      height: 316px
+      position: relative
+      //background-color: salmon
+      float: left
+      //border: 1px solid
+  section.totalLook    /////  SHOP BY STYLE
+    a 
+      position: relative
+      margin: 0px 10px
+      display: inline-block
+      .hover
+        > div
+          width: 100%
+          left: 20%
+          right: auto
+          div
+            font-size: 14px
+            margin-bottom: 20px
+            width: 100%
+    img.add
+      position: absolute
+      right: 0
+    section
+    a 
+      .hover
+        position: absolute
+        top: 10px
+        right: 10px
+        left: 10px
+        bottom: 10px
+        background-color: rgba(0, 0, 0, .741)
+        display: none
+        h5, .price
+          color: white
+        > div
+          position: absolute
+          bottom: 10px
+          left: 15px
+          display: block
+          text-align: left
+          //left: 50%
+          //transform: translateX(-50%)
+      position: relative
+      &:hover .hover
+        display: block
+      h5
+        background: none

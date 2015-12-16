@@ -61,76 +61,24 @@ html(lang='en')
 					.line
 					h5.up Best Sellers
 				section.bestSellers
-					a(href="#")
-						.hover
-							div
-								h5 AZIMUT
-								h5 Nappa Black
-								.price $000
-						img(src="http://www.fillmurray.com/147/147", alt="best seller")
-					a(href="#")
-						.hover
-							div
-								h5 AZIMUT
-								h5 Nappa Black
-								.price $000
-						img(src="http://www.fillmurray.com/147/147", alt="best seller")
-					a(href="#")
-						.hover
-							div
-								h5 AZIMUT
-								h5 Nappa Black
-								.price $000
-						img(src="http://www.fillmurray.com/147/147", alt="best seller")
-					a(href="#")
-						.hover
-							div
-								h5 AZIMUT
-								h5 Nappa Black
-								.price $000
-						img(src="http://www.fillmurray.com/147/147", alt="best seller")
-					a(href="#")
-						.hover
-							div
-								h5 AZIMUT
-								h5 Nappa Black
-								.price $000
-						img(src="http://www.fillmurray.com/147/147", alt="best seller")
-					a(href="#")
-						.hover
-							div
-								h5 AZIMUT
-								h5 Nappa Black
-								.price $000
-						img(src="http://www.fillmurray.com/147/147", alt="best seller")
-					a(href="#")
-						.hover
-							div
-								h5 AZIMUT
-								h5 Nappa Black
-								.price $000
-						img(src="http://www.fillmurray.com/147/147", alt="best seller")
-					a(href="#")
-						.hover
-							div
-								h5 AZIMUT
-								h5 Nappa Black
-								.price $000
-						img(src="http://www.fillmurray.com/147/147", alt="best seller")
-					a(href="#")
-						.hover
-							div
-								h5 AZIMUT
-								h5 Nappa Black
-								.price $000
-						img(src="http://www.fillmurray.com/147/147", alt="best seller")
-					a(href="#")
-						.hover
-							div
-								h5 AZIMUT
-								h5 Nappa Black
-								.price $000
-						img(src="http://www.fillmurray.com/147/147", alt="best seller")
+					mixin bestSellers(href,txt,txt2,price)
+						a(href=href)
+							.hover
+								div
+									h5=txt
+									h5=txt2
+									.price=price
+							img(src="http://www.fillmurray.com/147/147", alt="best seller")
+					+bestSellers('#','AZIMUT','Nappa Black','$000')
+					+bestSellers('#','AZIMUT','Nappa Black','$000')
+					+bestSellers('#','AZIMUT','Nappa Black','$000')
+					+bestSellers('#','AZIMUT','Nappa Black','$000')
+					+bestSellers('#','AZIMUT','Nappa Black','$000')
+					+bestSellers('#','AZIMUT','Nappa Black','$000')
+					+bestSellers('#','AZIMUT','Nappa Black','$000')
+					+bestSellers('#','AZIMUT','Nappa Black','$000')
+					+bestSellers('#','AZIMUT','Nappa Black','$000')
+					+bestSellers('#','AZIMUT','Nappa Black','$000')
 				section.divider
 					.line
 					h5.up Shop By Style
@@ -240,5 +188,27 @@ html(lang='en')
 									.price $000
 						img(src="lib/xxxx/add.png", alt="Add To Cart").add
 						img(src="http://www.fillmurray.com/170/478", alt="Shop By Style")
+				.popup
+					.left
+						h5 JOIN OUR MAILING LIST
+						p
+							| Sign up for exclusive update,
+							br
+							| new arrivals & insider-only discounts 
+						form(action="#")
+							input(type="text" value="Enter your email address...")
+							input(type="submit" value="SUBSCRIBE")
+						.social
+							a(href="#")
+								img(src="lib/xxxx/social-fb2.png", alt="Facebook")
+							a(href="#")
+								img(src="lib/xxxx/social-twitter2.png", alt="Twitter")
+							a(href="#")
+								img(src="lib/xxxx/social-yt2.png", alt="YouTube")
+							a(href="#")
+								img(src="lib/xxxx/social-ig2.png", alt="Instagram")
+					.right
+						img(src="lib/xxxx/popimg.png", alt="Popup image")
+						img(src="lib/xxxx/x.png", alt="Close").closeBtn
 			// HOME PAGE HOME PAGE HOME PAGE HOME PAGE HOME PAGE HOME PAGE HOME PAGE HOME PAGE
 		include footer.jade

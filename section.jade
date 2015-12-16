@@ -7,7 +7,28 @@ html(lang='en')
 		.container
 			.page-section
 				.grid
-					.box
+					mixin box(img,url,txt,txt2,price)
+						.box
+							img(src=img, alt="Product")
+							.description
+								.first
+									h5=txt
+									h5=txt2
+									.price=price
+								.last
+									input(type="button" value="Add To Cart")
+					mixin box-new-tag(img,url,txt,txt2,price)
+						.box.new-tag
+							img(src=img, alt="Product")
+							.description
+								.first
+									h5=txt
+									h5=txt2
+									.price=price
+								.last
+									input(type="button" value="Add To Cart")
+					+box('http://fillmurray.com/262/240','#','AZIMUT','Nappa Black','$000')
+					+box-new-tag('http://fillmurray.com/262/240','#','AZIMUT','Nappa Black','$000')
 						img(src="http://fillmurray.com/262/240", alt="Product")
 						.description
 							.first
@@ -16,33 +37,8 @@ html(lang='en')
 								.price $000
 							.last
 								input(type="button" value="Add To Cart")
-					.box.new-tag
-						img(src="http://fillmurray.com/262/240", alt="Product")
-						.description
-							.first
-								h5 AZIMUT
-								h5 Nappa Black
-								.price $000
-							.last
-								input(type="button" value="Add To Cart")
-					.box
-						img(src="http://fillmurray.com/262/240", alt="Product")
-						.description
-							.first
-								h5 AZIMUT
-								h5 Nappa Black
-								.price $000
-							.last
-								input(type="button" value="Add To Cart")
-					.box
-						img(src="http://fillmurray.com/262/240", alt="Product")
-						.description
-							.first
-								h5 AZIMUT
-								h5 Nappa Black
-								.price $000
-							.last
-								input(type="button" value="Add To Cart")
+					+box('http://fillmurray.com/262/240','#','AZIMUT','Nappa Black','$000')
+					+box('http://fillmurray.com/262/240','#','AZIMUT','Nappa Black','$000')
 					.box.sale-tag
 						img(src="http://fillmurray.com/262/240", alt="Product")
 						.description
@@ -53,122 +49,18 @@ html(lang='en')
 								.sale-price $111
 							.last
 								input(type="button" value="Add To Cart")
-					.box
-						img(src="http://fillmurray.com/262/240", alt="Product")
-						.description
-							.first
-								h5 AZIMUT
-								h5 Nappa Black
-								.price $000
-							.last
-								input(type="button" value="Add To Cart")
-					.box
-						img(src="http://fillmurray.com/262/240", alt="Product")
-						.description
-							.first
-								h5 AZIMUT
-								h5 Nappa Black
-								.price $000
-							.last
-								input(type="button" value="Add To Cart")
-					.box
-						img(src="http://fillmurray.com/262/240", alt="Product")
-						.description
-							.first
-								h5 AZIMUT
-								h5 Nappa Black
-								.price $000
-							.last
-								input(type="button" value="Add To Cart")
-					.box
-						img(src="http://fillmurray.com/262/240", alt="Product")
-						.description
-							.first
-								h5 AZIMUT
-								h5 Nappa Black
-								.price $000
-							.last
-								input(type="button" value="Add To Cart")
-					.box
-						img(src="http://fillmurray.com/262/240", alt="Product")
-						.description
-							.first
-								h5 AZIMUT
-								h5 Nappa Black
-								.price $000
-							.last
-								input(type="button" value="Add To Cart")
-					.box
-						img(src="http://fillmurray.com/262/240", alt="Product")
-						.description
-							.first
-								h5 AZIMUT
-								h5 Nappa Black
-								.price $000
-							.last
-								input(type="button" value="Add To Cart")
-					.box
-						img(src="http://fillmurray.com/262/240", alt="Product")
-						.description
-							.first
-								h5 AZIMUT
-								h5 Nappa Black
-								.price $000
-							.last
-								input(type="button" value="Add To Cart")
-					.box
-						img(src="http://fillmurray.com/262/240", alt="Product")
-						.description
-							.first
-								h5 AZIMUT
-								h5 Nappa Black
-								.price $000
-							.last
-								input(type="button" value="Add To Cart")
-					.box
-						img(src="http://fillmurray.com/262/240", alt="Product")
-						.description
-							.first
-								h5 AZIMUT
-								h5 Nappa Black
-								.price $000
-							.last
-								input(type="button" value="Add To Cart")
-					.box
-						img(src="http://fillmurray.com/262/240", alt="Product")
-						.description
-							.first
-								h5 AZIMUT
-								h5 Nappa Black
-								.price $000
-							.last
-								input(type="button" value="Add To Cart")
-					.box
-						img(src="http://fillmurray.com/262/240", alt="Product")
-						.description
-							.first
-								h5 AZIMUT
-								h5 Nappa Black
-								.price $000
-							.last
-								input(type="button" value="Add To Cart")
-					.box
-						img(src="http://fillmurray.com/262/240", alt="Product")
-						.description
-							.first
-								h5 AZIMUT
-								h5 Nappa Black
-								.price $000
-							.last
-								input(type="button" value="Add To Cart")
-					.box
-						img(src="http://fillmurray.com/262/240", alt="Product")
-						.description
-							.first
-								h5 AZIMUT
-								h5 Nappa Black
-								.price $000
-							.last
-								input(type="button" value="Add To Cart")
+					+box('http://fillmurray.com/262/240','#','AZIMUT','Nappa Black','$000')
+					+box('http://fillmurray.com/262/240','#','AZIMUT','Nappa Black','$000')
+					+box('http://fillmurray.com/262/240','#','AZIMUT','Nappa Black','$000')
+					+box('http://fillmurray.com/262/240','#','AZIMUT','Nappa Black','$000')
+					+box('http://fillmurray.com/262/240','#','AZIMUT','Nappa Black','$000')
+					+box('http://fillmurray.com/262/240','#','AZIMUT','Nappa Black','$000')
+					+box('http://fillmurray.com/262/240','#','AZIMUT','Nappa Black','$000')
+					+box('http://fillmurray.com/262/240','#','AZIMUT','Nappa Black','$000')
+					+box('http://fillmurray.com/262/240','#','AZIMUT','Nappa Black','$000')
+					+box('http://fillmurray.com/262/240','#','AZIMUT','Nappa Black','$000')
+					+box('http://fillmurray.com/262/240','#','AZIMUT','Nappa Black','$000')
+					+box('http://fillmurray.com/262/240','#','AZIMUT','Nappa Black','$000')
+					+box('http://fillmurray.com/262/240','#','AZIMUT','Nappa Black','$000')
 			// SECTION SECTION SECTION SECTION SECTION SECTION SECTION
 		include footer.jade
