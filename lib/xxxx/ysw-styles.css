@@ -1104,6 +1104,14 @@ body {
   right: 0;
 }
 
+.page-home section.shopByStyle a {
+  display: none;
+}
+
+.page-home section.shopByStyle a:first-child {
+  display: inline-block;
+}
+
 .page-section {
   text-align: center;
   margin-left: 186px;

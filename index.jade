@@ -97,111 +97,33 @@ html(lang='en')
 					.line
 					h5.up Shop By Style
 				section.shopByStyle
-					a(href="#")
-						.hover
-							div
+					mixin shopByStyle(href,txt,txt2,price2,txt3,txt4,price3,txt5,txt6,price4,txt7,txt8,price)
+						a(href=href)
+							.hover
 								div
-									h5 AZIMUT
-									h5 Nappa Black
-									.price $000
-								div
-									h5 AZIMUT
-									h5 Nappa Black
-									.price $000
-								div
-									h5 AZIMUT
-									h5 Nappa Black
-									.price $000
-								div
-									h5 AZIMUT
-									h5 Nappa Black
-									.price $000
-						img(src="lib/xxxx/add.png", alt="Add To Cart").add
-						img(src="http://www.fillmurray.com/170/478", alt="Shop By Style")
-					a(href="#")
-						.hover
-							div
-								div
-									h5 AZIMUT
-									h5 Nappa Black
-									.price $000
-								div
-									h5 AZIMUT
-									h5 Nappa Black
-									.price $000
-								div
-									h5 AZIMUT
-									h5 Nappa Black
-									.price $000
-								div
-									h5 AZIMUT
-									h5 Nappa Black
-									.price $000
-						img(src="lib/xxxx/add.png", alt="Add To Cart").add
-						img(src="http://www.fillmurray.com/170/478", alt="Shop By Style")
-					a(href="#")
-						.hover
-							div
-								div
-									h5 AZIMUT
-									h5 Nappa Black
-									.price $000
-								div
-									h5 AZIMUT
-									h5 Nappa Black
-									.price $000
-								div
-									h5 AZIMUT
-									h5 Nappa Black
-									.price $000
-								div
-									h5 AZIMUT
-									h5 Nappa Black
-									.price $000
-						img(src="lib/xxxx/add.png", alt="Add To Cart").add
-						img(src="http://www.fillmurray.com/170/478", alt="Shop By Style")
-					a(href="#")
-						.hover
-							div
-								div
-									h5 AZIMUT
-									h5 Nappa Black
-									.price $000
-								div
-									h5 AZIMUT
-									h5 Nappa Black
-									.price $000
-								div
-									h5 AZIMUT
-									h5 Nappa Black
-									.price $000
-								div
-									h5 AZIMUT
-									h5 Nappa Black
-									.price $000
-						img(src="lib/xxxx/add.png", alt="Add To Cart").add
-						img(src="http://www.fillmurray.com/170/478", alt="Shop By Style")
-					a(href="#")
-						.hover
-							div
-								div
-									h5 AZIMUT
-									h5 Nappa Black
-									.price $000
-								div
-									h5 AZIMUT
-									h5 Nappa Black
-									.price $000
-								div
-									h5 AZIMUT
-									h5 Nappa Black
-									.price $000
-								div
-									h5 AZIMUT
-									h5 Nappa Black
-									.price $000
-						img(src="lib/xxxx/add.png", alt="Add To Cart").add
-						img(src="http://www.fillmurray.com/170/478", alt="Shop By Style")
+									div
+										h5=txt
+										h5=txt2
+										.price=price
+									div
+										h5=txt3
+										h5=txt4
+										.price=price2
+									div
+										h5=txt5
+										h5=txt6
+										.price=price3
+									div
+										h5=txt7
+										h5=txt8
+										.price=price4
+							img(src="lib/xxxx/add.png", alt="Add To Cart").add
+							img(src="http://www.fillmurray.com/170/478", alt="Shop By Style")
+					+shopByStyle('#','AZIMUT','Nappa Black','$000','AZIMUT','Nappa Black','$000','AZIMUT','Nappa Black','$000','AZIMUT','Nappa Black','$000')
+					+shopByStyle('#','AZIMUT','Nappa Black','$000','AZIMUT','Nappa Black','$000','AZIMUT','Nappa Black','$000','AZIMUT','Nappa Black','$000')
+					+shopByStyle('#','AZIMUT','Nappa Black','$000','AZIMUT','Nappa Black','$000','AZIMUT','Nappa Black','$000','AZIMUT','Nappa Black','$000')
+					+shopByStyle('#','AZIMUT','Nappa Black','$000','AZIMUT','Nappa Black','$000','AZIMUT','Nappa Black','$000','AZIMUT','Nappa Black','$000')
+					+shopByStyle('#','AZIMUT','Nappa Black','$000','AZIMUT','Nappa Black','$000','AZIMUT','Nappa Black','$000','AZIMUT','Nappa Black','$000')
 				.popup
 					.left
 						h5 JOIN OUR MAILING LIST
