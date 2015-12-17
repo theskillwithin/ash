@@ -43,20 +43,57 @@ header
 		display: none
 		vertical-align: middle
 		height: 50px
+		position: relative
 		div
 			display: inline-block
-			width: 31%
 			height: 100%
 			padding: 5px
 			color: white
+			position: absolute
 			img
 				vertical-align: middle
 		.ash
+			left: 50%
+			transform: translateX(-50%)
 			text-align: center
 		.logo
+			right: 0
 			text-align: right
 		.x 
-			margin-left: 9px
+			margin-left: 1px
+			top: 50%
+			transform: translateY(-50%)
+			width: 50px
+		.mobile-nav-toggle
+			cursor: pointer
+			width: 50px
+			height: 50px
+			position: relative
+			top: 50%
+			transform: translateY(-17%)
+			span,
+			span:before,
+			span:after 
+				content: ''
+				height: 1px
+				background-color: white
+				display: block
+				position: relative
+				transition: all 0.3s ease-in-out
+			span:before
+				top: 10px 
+			span:after
+				bottom: 10px
+
+			&:hover span
+				background: transparent
+			&:hover span:before,
+			&:hover span:after
+				transform-origin: center
+				transform: rotate(45deg)
+				top: 0
+			&:hover span:after
+				transform: rotate(-45deg)
 	.left
 		float: left
 		height: 500px
