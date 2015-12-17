@@ -580,6 +580,87 @@ header {
   margin-top: 10px !important;
 }
 
+header .mobile2 {
+  position: relative;
+  display: none;
+  width: 100%;
+  height: 25px;
+}
+
+header .mobile2 div, header .mobile2 form {
+  display: inline-block;
+  width: 30%;
+  height: 100%;
+  color: black;
+  font-size: 14px;
+  position: relative;
+  margin-top: 0px;
+}
+
+header .mobile2 form {
+  text-align: center;
+  color: black;
+}
+
+header .mobile2 form img {
+  vertical-align: middle;
+  display: inline-block;
+  margin-top: -5px;
+}
+
+header .mobile2 form input {
+  height: 20px;
+  width: -webkit-calc(100% - 30px);
+  width: calc(100% - 30px);
+  color: black;
+}
+
+header .mobile2 .cart {
+  text-align: right;
+  vertical-align: middle;
+  margin-top: 4px;
+}
+
+header .mobile2 .cart img {
+  margin-left: 8px;
+  vertical-align: top;
+}
+
+header .mobile2 .account {
+  margin-left: 9px;
+  color: blacks;
+}
+
+header .mobile {
+  display: none;
+  vertical-align: middle;
+  height: 50px;
+}
+
+header .mobile div {
+  display: inline-block;
+  width: 31%;
+  height: 100%;
+  padding: 5px;
+  color: white;
+}
+
+header .mobile div img {
+  vertical-align: middle;
+}
+
+header .mobile .ash {
+  text-align: center;
+}
+
+header .mobile .logo {
+  text-align: right;
+}
+
+header .mobile .x {
+  margin-left: 9px;
+}
+
 header .left {
   float: left;
   height: 500px;
@@ -932,6 +1013,7 @@ body {
   background-color: white;
   width: 652px;
   height: 260px;
+  display: none;
 }
 
 .page-home .popup .left, .page-home .popup .right {
@@ -962,7 +1044,7 @@ body {
 
 .page-home .popup .left form input {
   display: block;
-  margin-top: 20px;
+  margin-top: 11px;
 }
 
 .page-home .popup .left form input[type='text'] {
@@ -971,11 +1053,52 @@ body {
   height: 30px;
 }
 
+.page-home .popup .left form input[type='submit'] {
+  margin-bottom: 20px;
+}
+
+.page-home .popup .left .social a {
+  margin: 11px;
+}
+
 .page-home .popup .right {
   right: 0;
 }
 
 .page-home .popup .right .closeBtn {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.page-home section.newProductsMobile, .page-home section.bestSellersMobile {
+  display: none;
+}
+
+.page-home section.newProductsMobile a {
+  height: auto;
+  width: auto;
+  display: inline-block;
+}
+
+.page-home section.newProductsMobile a .close {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.page-home section.newProductsMobile a:first-child {
+  border: 3px solid black;
+  margin-bottom: 10px;
+}
+
+.page-home section.bestSellersMobile a {
+  height: auto;
+  width: auto;
+  display: inline-block;
+}
+
+.page-home section.bestSellersMobile a .close {
   position: absolute;
   top: 0;
   right: 0;
@@ -1376,8 +1499,44 @@ footer .right a {
 }
 
 @media screen and (max-width: 788px) {
-  .content-container {
-    max-width: 550px;
+  .container {
+    max-width: 780px;
+  }
+  header {
+    height: 79px;
+    background-color: #ebebeb;
+    margin-top: 0px !important;
+  }
+  header .left {
+    display: none;
+  }
+  header .mobile {
+    display: block;
+    background-color: black;
+  }
+  header .top {
+    display: none;
+  }
+  header .mobile2 {
+    display: inline-block;
+  }
+  header .mobile2 div, header .mobile2 form {
+    display: inline-block;
+  }
+  .page-home, .page-item, .page-section, .page-section-totallook {
+    margin-left: 10px;
+  }
+  .page-home section.newProducts, .page-item section.newProducts, .page-section section.newProducts, .page-section-totallook section.newProducts {
+    display: none;
+  }
+  .page-home section.bestSellers, .page-item section.bestSellers, .page-section section.bestSellers, .page-section-totallook section.bestSellers {
+    display: none;
+  }
+  .page-home section.newProductsMobile, .page-item section.newProductsMobile, .page-section section.newProductsMobile, .page-section-totallook section.newProductsMobile {
+    display: block;
+  }
+  .page-home section.bestSellersMobile, .page-item section.bestSellersMobile, .page-section section.bestSellersMobile, .page-section-totallook section.bestSellersMobile {
+    display: block;
   }
 }
 
