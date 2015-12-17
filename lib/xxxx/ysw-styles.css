@@ -580,6 +580,10 @@ header {
   margin-top: 10px !important;
 }
 
+header .mobileMenu {
+  display: none;
+}
+
 header .mobile2 {
   position: relative;
   display: none;
@@ -1104,14 +1108,6 @@ body {
   right: 0;
 }
 
-.page-home section.shopByStyle a {
-  display: none;
-}
-
-.page-home section.shopByStyle a:first-child {
-  display: inline-block;
-}
-
 .page-section {
   text-align: center;
   margin-left: 186px;
@@ -1515,7 +1511,22 @@ footer .right a {
     background-color: #ebebeb;
     margin-top: 0px !important;
   }
+  header .mobileMenu {
+    display: block;
+  }
   header .left {
+    display: block;
+    position: fixed;
+    left: 20px;
+    right: 65px;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+  }
+  header .left .menu-cat {
+    background-color: black;
+  }
+  header .left .logo {
     display: none;
   }
   header .mobile {
@@ -1545,6 +1556,12 @@ footer .right a {
   }
   .page-home section.bestSellersMobile, .page-item section.bestSellersMobile, .page-section section.bestSellersMobile, .page-section-totallook section.bestSellersMobile {
     display: block;
+  }
+  .page-home section.shopByStyle a, .page-item section.shopByStyle a, .page-section section.shopByStyle a, .page-section-totallook section.shopByStyle a {
+    display: none;
+  }
+  .page-home section.shopByStyle a:first-child, .page-item section.shopByStyle a:first-child, .page-section section.shopByStyle a:first-child, .page-section-totallook section.shopByStyle a:first-child {
+    display: inline-block;
   }
 }
 

@@ -7,9 +7,21 @@
 	.container
 		max-width: 780px
 	header
+		.mobileMenu
+			display: block
 		height: 79px
 		.left
-			display: none
+			display: block
+			position: fixed
+			left: 20px 
+			right: 65px
+			width: 100%
+			text-align: center
+			background-color: white
+			.menu-cat
+				background-color: black
+			.logo
+				display: none
 		background-color: #ebebeb
 		margin-top: 0px !important
 		.mobile
@@ -31,3 +43,8 @@
 			display: block
 		section.bestSellersMobile
 			display: block
+		section.shopByStyle
+		  a
+		    display: none
+		    &:first-child
+		      display: inline-block
