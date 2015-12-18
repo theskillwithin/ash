@@ -1355,6 +1355,24 @@ body {
   }
 }
 
+@media screen and (max-width: 1119px) {
+  .page-section .grid {
+    max-width: 604px !important;
+  }
+}
+
+@media screen and (max-width: 982px) {
+  .page-section {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 788px) {
+  .page-section {
+    margin-top: 30px;
+  }
+}
+
 .page-item {
   text-align: center;
   position: relative;
@@ -1380,7 +1398,8 @@ body {
 }
 
 .page-item .main .image, .page-item .description .image {
-  width: 555px;
+  max-width: 555px;
+  width: 100%;
   height: auto;
   display: inline-block;
   vertical-align: top;
@@ -1397,6 +1416,8 @@ body {
   max-width: 165px;
   max-height: 149px;
   margin: auto;
+  width: 100%;
+  height: auto;
 }
 
 .page-item .main .carousel .pdpthumb img, .page-item .description .carousel .pdpthumb img {
@@ -1487,6 +1508,7 @@ body {
 
 .page-item .description {
   height: auto;
+  width: 100%;
 }
 
 .page-item .description p {
@@ -1533,12 +1555,67 @@ body {
   margin: 5px 0px;
 }
 
+@media screen and (max-width: 1088px) {
+  .page-item .main .image {
+    width: 400px;
+  }
+  .page-item .main .options, .page-item .description .options {
+    right: auto;
+  }
+  .page-item .main .carousel .pdpthumb, .page-item .description .carousel .pdpthumb {
+    width: 32%;
+  }
+}
+
+@media screen and (max-width: 914px) {
+  .page-item .main .image {
+    width: 352px;
+  }
+  .page-item .main .options {
+    position: relative;
+    margin-left: 114px;
+  }
+}
+
+@media screen and (max-width: 914px) {
+  .page-item {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 678px) {
+  .page-item .main {
+    width: auto;
+    height: auto;
+  }
+  .page-item .main .options {
+    display: block;
+    position: relative;
+    height: auto;
+    margin: auto;
+    margin-right: auto;
+    margin-left: 20px;
+  }
+  .page-item .main .options h3 {
+    font-size: 14px;
+  }
+  .page-item .main .image {
+    display: block;
+    position: relative;
+    height: auto;
+    margin: auto;
+  }
+  .page-item section.description {
+    margin-top: 10px;
+  }
+}
+
 footer {
   text-align: center;
   padding-left: 165px;
   background-color: #acacac;
   width: 100%;
-  height: 40px;
+  height: auto;
   margin-top: 24px;
   margin-bottom: 0px;
   padding: 5px;
