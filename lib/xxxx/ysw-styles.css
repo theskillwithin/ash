@@ -1345,6 +1345,12 @@ body {
   background: none;
 }
 
+@media screen and (max-width: 1182px) {
+  .page-section .grid {
+    margin-left: 0px;
+  }
+}
+
 .page-item {
   text-align: center;
   position: relative;
@@ -1661,6 +1667,9 @@ footer .right a {
   }
   .page-home section.shopByStyle a:first-child, .page-item section.shopByStyle a:first-child, .page-section section.shopByStyle a:first-child, .page-section-totallook section.shopByStyle a:first-child {
     display: inline-block;
+  }
+  .page-section {
+    margin-left: 0px;
   }
 }
 
