@@ -1180,23 +1180,20 @@ body {
   height: auto;
 }
 
-.page-section::after {
-  clear: both;
-  content: "";
-  display: table;
-}
-
 .page-section .grid {
-  max-width: 876px;
-  margin-left: 67px;
+  max-width: 897px;
+  margin-left: 0px;
   height: auto;
+  position: relative;
+  display: inline-block;
+  width: 100%;
 }
 
 .page-section .grid .box {
   width: 292px;
   height: 316px;
   position: relative;
-  float: left;
+  display: inline-block;
 }
 
 .page-section .grid .description .first {
@@ -1348,6 +1345,13 @@ body {
 @media screen and (max-width: 1182px) {
   .page-section .grid {
     margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 1076px) {
+  .page-section .grid {
+    margin: auto;
+    width: 100%;
   }
 }
 
