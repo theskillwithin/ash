@@ -1425,21 +1425,22 @@ body {
   height: auto;
 }
 
-.page-item .main .carousel .left-arrow, .page-item .main .carousel .right-arrow, .page-item .description .carousel .left-arrow, .page-item .description .carousel .right-arrow {
+.page-item .main .left-arrow, .page-item .main .right-arrow, .page-item .description .left-arrow, .page-item .description .right-arrow {
   position: absolute;
   vertical-align: middle;
   display: inline-block;
-  top: 50%;
+  bottom: -40px;
+  z-index: 9999999;
   -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
 }
 
-.page-item .main .carousel .left-arrow, .page-item .description .carousel .left-arrow {
+.page-item .main .left-arrow, .page-item .description .left-arrow {
   left: 0;
 }
 
-.page-item .main .carousel .right-arrow, .page-item .description .carousel .right-arrow {
+.page-item .main .right-arrow, .page-item .description .right-arrow {
   right: 0;
 }
 
