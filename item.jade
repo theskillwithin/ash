@@ -31,14 +31,9 @@ html(lang='en')
 						h3.price $000
 						h5 SIZE:
 						.size
-							a(href="") 35
-							a(href="") 36
-							a(href="") 37
-							a(href="") 38
-							a(href="") 39
-							a(href="") 40
-							a(href="") 41
-							a(href="") 42
+							- var n = 35
+							while n < 43
+								a(href="#") #{n++}
 						h5 COLOR:
 						.color
 							.box.black
@@ -46,9 +41,9 @@ html(lang='en')
 							.box.white
 						h5 QUANTITY	
 						select#qty(name="")
-							- var n = 0
+							- var n = 1
 							while n < 10
-								option(value=n++) #{n}
+								option(value=n) #{n++}
 						input(type="button" alt="Add To Cart" value="Add To Cart" class="addToCart")
 						h5 SHARE THIS STYLE:
 						.social
