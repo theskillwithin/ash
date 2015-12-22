@@ -46,15 +46,9 @@ html(lang='en')
 							.box.white
 						h5 QUANTITY	
 						select#qty(name="")
-							option(value="1") 1
-							option(value="2") 2
-							option(value="3") 3
-							option(value="4") 4
-							option(value="5") 5
-							option(value="6") 6
-							option(value="7") 7
-							option(value="8") 8
-							option(value="9") 9
+							- var n = 0
+							while n < 10
+								option(value=n++) #{n}
 						input(type="button" alt="Add To Cart" value="Add To Cart" class="addToCart")
 						h5 SHARE THIS STYLE:
 						.social

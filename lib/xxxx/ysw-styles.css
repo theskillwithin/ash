@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'bonvenocflight';
-  src: url("/lib/xxxx/BonvenoCF-Light-webfont.eot");
-  src: url("/lib/xxxx/BonvenoCF-Light-webfont.eot?#iefix") format("embedded-opentype"), url("/lib/xxxx/BonvenoCF-Light-webfont.woff") format("woff"), url("/lib/xxxx/BonvenoCF-Light-webfont.ttf") format("truetype"), url("/lib/xxxx/BonvenoCF-Light-webfont.svg#bonvenocflight") format("svg");
+  src: url("BonvenoCF-Light-webfont.eot");
+  src: url("BonvenoCF-Light-webfont.eot?#iefix") format("embedded-opentype"), url("BonvenoCF-Light-webfont.woff") format("woff"), url("BonvenoCF-Light-webfont.ttf") format("truetype"), url("BonvenoCF-Light-webfont.svg#bonvenocflight") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -751,6 +751,10 @@ header .left nav ul {
   list-style-type: none;
 }
 
+header .left nav .menu-cat {
+  text-decoration: underline;
+}
+
 header .top {
   width: 575px;
   height: 60px;
@@ -781,7 +785,7 @@ header .top ul li {
 
 header .top ul li.search {
   list-style-type: none;
-  background-image: url("/lib/xxxx/search-icon.png");
+  background-image: url("search-icon.png");
   background-repeat: no-repeat;
   background-position: 0px 3px;
   padding-left: 18px;
