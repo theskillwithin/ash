@@ -801,6 +801,15 @@ header .top .under li:first-child {
   list-style-type: none;
 }
 
+.closed {
+  top: -400px !important;
+}
+
+.open {
+  top: 85px !important;
+  display: block;
+}
+
 * {
   font-family: bonvenocflight;
 }
