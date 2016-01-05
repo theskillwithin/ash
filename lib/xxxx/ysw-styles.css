@@ -1477,12 +1477,23 @@ body {
   background-color: #FFF;
   text-align: center;
   margin-top: 8px;
+  width: 100%;
 }
 
-.page-item .main .options .size a, .page-item .description .options .size a {
+.page-item .main .options .size > div, .page-item .description .options .size > div {
   width: 25%;
   display: inline-block;
   margin: 5px 0px;
+  color: #959595;
+}
+
+.page-item .main .options .size > div:hover, .page-item .description .options .size > div:hover {
+  cursor: pointer;
+}
+
+.page-item .main .options .size .selected, .page-item .description .options .size .selected {
+  color: black;
+  font-weight: bold;
 }
 
 .page-item .main .options .color .box, .page-item .description .options .color .box {
