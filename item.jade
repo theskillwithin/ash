@@ -1,0 +1,125 @@
+doctype html
+html(lang='en')
+	include head.jade
+	body
+		include header.jade
+		// ITEM  ITEM  ITEM  ITEM  ITEM  ITEM  ITEM  ITEM  ITEM  ITEM
+		.container
+			.page-item
+				section.main
+					section.image
+						img(src="https://placehold.it/450x400", alt="Main image")
+						.arrows
+							.left-arrow
+								img(src="lib/xxxx/arrow-left.png", alt="Prev")
+							.right-arrow
+								img(src="lib/xxxx/arrow-right.png", alt="Next")
+						.carousel#carousel
+							.pdpthumb
+								img(src="https://placehold.it/165x149", alt="Thumb")
+							.pdpthumb
+								img(src="https://placehold.it/165x149", alt="Thumb")
+							.pdpthumb
+								img(src="https://placehold.it/165x149", alt="Thumb")
+							.pdpthumb
+								img(src="https://placehold.it/165x149", alt="Thumb")
+							.pdpthumb
+								img(src="https://placehold.it/165x149", alt="Thumb")
+					section.options
+						h3 AZIMUT Nappa Black
+						h3.price $000
+						h5 SIZE:
+						.size
+							- var n = 35
+							while n < 43
+								a(href="#") #{n++}
+						h5 COLOR:
+						.color
+							.box.black
+							.box.grey
+							.box.white
+						h5 QUANTITY	
+						select#qty(name="")
+							- var n = 1
+							while n < 10
+								option(value=n) #{n++}
+						input(type="button" alt="Add To Cart" value="Add To Cart" class="addToCart")
+						h5 SHARE THIS STYLE:
+						.social
+							a(href="#")
+								img(src="lib/xxxx/social-fb.png", alt="Facebook")
+							a(href="#")
+								img(src="lib/xxxx/social-twitter.png", alt="Twitter")
+							a(href="#")
+								img(src="lib/xxxx/social-email.png", alt="Email")
+							a(href="#")
+								img(src="lib/xxxx/social-share.png", alt="Share")
+							a(href="#")
+								img(src="lib/xxxx/social-pinterest.png", alt="Pinterest")
+							a(href="#")
+								img(src="lib/xxxx/social-ig.png", alt="Instagram")
+				section.description
+					h4 Description
+					p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora enim provident odit. Voluptas minus molestiae a odio, facere consectetur aliquam, eaque recusandae. Delectus, obcaecati, at? Molestias in beatae enim praesentium.  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo ipsam quam qui expedita blanditiis facilis voluptatibus, alias, atque laborum, nisi corporis officia possimus distinctio. Nobis consequatur, debitis molestias fugit vitae.  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos totam, a iste. Voluptatum facilis id molestias facere placeat perferendis error debitis accusantium, qui a odio, nisi est libero ut natus?
+				section.divider
+					.line
+					h5.up You May Also Like
+				section.page-section
+					.grid
+						mixin box(img,url,txt,txt2,price)
+							.box
+								img(src=img, alt="Product")
+								.description
+									.first
+										h5=txt
+										h5=txt2
+										.price=price
+									.last
+										input(type="button" value="Add To Cart")
+						mixin box-new-tag(img,url,txt,txt2,price)
+							.box.new-tag
+								img(src=img, alt="Product")
+								.description
+									.first
+										h5=txt
+										h5=txt2
+										.price=price
+									.last
+										input(type="button" value="Add To Cart")
+						+box('https://placehold.it/262x240','#','AZIMUT','Nappa Black','$000')
+						+box-new-tag('https://placehold.it/262x240','#','AZIMUT','Nappa Black','$000')
+						+box('https://placehold.it/262x240','#','AZIMUT','Nappa Black','$000')
+						+box('https://placehold.it/262x240','#','AZIMUT','Nappa Black','$000')
+						.box.sale-tag
+							img(src="https://placehold.it/262x240", alt="Product")
+							.description
+								.first
+									h5 AZIMUT
+									h5 Nappa Black
+									.price $000
+									.sale-price $111
+								.last
+									input(type="button" value="Add To Cart")
+						+box('https://placehold.it/262x240','#','AZIMUT','Nappa Black','$000')
+				section.divider
+					.line
+					h5.up We Recommend
+				section.page-section
+					.grid
+						+box('https://placehold.it/262x240','#','AZIMUT','Nappa Black','$000')
+						+box-new-tag('https://placehold.it/262x240','#','AZIMUT','Nappa Black','$000')
+						+box('https://placehold.it/262x240','#','AZIMUT','Nappa Black','$000')
+						+box('https://placehold.it/262x240','#','AZIMUT','Nappa Black','$000')
+						.box.sale-tag
+							img(src="https://placehold.it/262x240", alt="Product")
+							.description
+								.first
+									h5 AZIMUT
+									h5 Nappa Black
+									.price $000
+									.sale-price $111
+								.last
+									input(type="button" value="Add To Cart")
+						+box('https://placehold.it/262x240','#','AZIMUT','Nappa Black','$000')
+		// ITEM  ITEM  ITEM  ITEM  ITEM  ITEM  ITEM  ITEM  ITEM  ITEM
+		include footer.jade

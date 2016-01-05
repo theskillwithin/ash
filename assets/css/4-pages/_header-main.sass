@@ -1,0 +1,158 @@
+header
+	position: relative
+	height: 60px
+	margin-top: 10px !important
+	.mobileMenu
+		display: none
+	.mobile2
+		position: relative
+		display: none
+		width: 100%
+		height: 25px
+		div, form
+			display: inline-block
+			width: 30%
+			height: 100%
+			//padding: 5px
+			color: black
+			font-size: 14px
+			position: relative
+			margin-top: 0px
+		form
+			text-align: center
+			color: black
+			img
+				vertical-align: middle
+				display: inline-block
+				margin-top: -5px
+			input
+				height: 20px
+				width: calc(100% - 30px)
+				color: black
+		.cart
+			text-align: right
+			vertical-align: middle
+			margin-top: 4px
+			img
+				margin-left: 8px
+				vertical-align: top
+		.account
+			margin-left: 9px
+			color: blacks
+	.mobile
+		display: none
+		vertical-align: middle
+		height: 50px
+		position: relative
+		div
+			display: inline-block
+			height: 100%
+			padding: 5px
+			color: white
+			position: absolute
+			img
+				vertical-align: middle
+		.ash
+			left: 50%
+			transform: translateX(-50%)
+			text-align: center
+		.logo
+			right: 0
+			text-align: right
+		.x 
+			margin-left: 1px
+			top: 50%
+			transform: translateY(-50%)
+			width: 50px
+		.mobile-nav-toggle
+			cursor: pointer
+			width: 50px
+			height: 50px
+			position: relative
+			top: 50%
+			transform: translateY(-17%)
+			span,
+			span:before,
+			span:after 
+				content: ''
+				height: 1px
+				background-color: white
+				display: block
+				position: relative
+				transition: all 0.3s ease-in-out
+			span:before
+				top: 10px 
+			span:after
+				bottom: 10px
+
+			&:hover span
+				background: transparent
+			&:hover span:before,
+			&:hover span:after
+				transform-origin: center
+				transform: rotate(45deg)
+				top: 0
+			&:hover span:after
+				transform: rotate(-45deg)
+	.left
+		float: left
+		height: 500px
+		//background-color: salmon
+		width: 165px
+		position: relative
+		z-index: 9
+		text-align: center
+		nav
+			text-transform: uppercase
+			margin-top: 50px
+			font-size: 12px
+			> div
+				margin-bottom: 20px
+			ul
+				list-style-type: none
+			.menu-cat
+				text-decoration: underline
+	.top
+		width: 575px
+		height: 60px
+		//background-color: red
+		position: absolute
+		font-size: 12px
+		right: 0
+		text-transform: uppercase
+		.cart
+			img
+				vertical-align: middle
+				margin-left: 5px
+				margin-top: -10px
+		ul
+			display: block
+			height: 30px
+			width: auto
+			position: absolute
+			right: 0
+			li
+				margin: 5px 10px
+				float: left
+				&.search
+					list-style-type: none
+					background-image: url('search-icon.png')
+					background-repeat: no-repeat
+					background-position: 0px 3px
+					padding-left: 18px
+		.under
+			//background-color: green
+			width: auto
+			height: 27px
+			margin-top: 30px
+			right: 0px
+			position: absolute
+			font-size: 10px
+			line-height: .7
+			li:first-child
+				list-style-type: none
+.closed
+	top: -400px !important
+.open
+	top: 85px !important
+	display: block
