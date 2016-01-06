@@ -136,10 +136,16 @@ header
 				float: left
 				&.search
 					list-style-type: none
-					background-image: url('search-icon.png')
-					background-repeat: no-repeat
-					background-position: 0px 3px
+					//background-image: url('search-icon.png')
+					//background-repeat: no-repeat
+					//background-position: 0px 3px
 					padding-left: 18px
+					.input
+						display: inline-block
+						//display: none
+						input
+							width: 125px
+							height: 23px
 		.under
 			//background-color: green
 			width: auto
@@ -156,3 +162,5 @@ header
 .open
 	top: 85px !important
 	display: block
+.hide
+	display: none !important

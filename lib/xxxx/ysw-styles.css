@@ -6,30 +6,6 @@
   font-style: normal;
 }
 
-@font-face {
-  font-family: 'Fira Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: local("Fira Sans"), local("FiraSans-Regular"), url(http://fonts.gstatic.com/s/firasans/v5/EjsrzDkQUQCDwsBtLpcVQZBw1xU1rKptJj_0jans920.woff2) format("woff2");
-  unicode-range: U0-0FF, U131, U152-153, U2C 6, U2DA, U2DC, U2000-206F, U2074, U20AC, U2212, U2215, UE0FF, UEFFD, UF000;
-}
-
-@font-face {
-  font-family: 'Fira Sans';
-  font-style: normal;
-  font-weight: 700;
-  src: local("Fira Sans Bold"), local("FiraSans-Bold"), url(http://fonts.gstatic.com/s/firasans/v5/DugPdSljmOTocZOR2CItOhampu5_7CjHW5spxoeN3Vs.woff2) format("woff2");
-  unicode-range: U0-0FF, U131, U152-153, U2C 6, U2DA, U2DC, U2000-206F, U2074, U20AC, U2212, U2215, UE0FF, UEFFD, UF000;
-}
-
-@font-face {
-  font-family: 'Fira Mono';
-  font-style: normal;
-  font-weight: 400;
-  src: local("Fira Mono"), local("FiraMono"), url(http://fonts.gstatic.com/s/firamono/v3/SlRWfq1zeqXiYWAN-lnG-pBw1xU1rKptJj_0jans920.woff2) format("woff2");
-  unicode-range: U0-0FF, U131, U152-153, U2C 6, U2DA, U2DC, U2000-206F, U2074, U20AC, U2212, U2215, UE0FF, UEFFD, UF000;
-}
-
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
@@ -785,10 +761,16 @@ header .top ul li {
 
 header .top ul li.search {
   list-style-type: none;
-  background-image: url("search-icon.png");
-  background-repeat: no-repeat;
-  background-position: 0px 3px;
   padding-left: 18px;
+}
+
+header .top ul li.search .input {
+  display: inline-block;
+}
+
+header .top ul li.search .input input {
+  width: 125px;
+  height: 23px;
 }
 
 header .top .under {
@@ -812,6 +794,10 @@ header .top .under li:first-child {
 .open {
   top: 85px !important;
   display: block;
+}
+
+.hide {
+  display: none !important;
 }
 
 * {
@@ -1204,7 +1190,7 @@ body {
 
 .page-section .grid .box {
   width: 292px;
-  height: 316px;
+  height: auto;
   position: relative;
   display: inline-block;
 }
@@ -1239,7 +1225,7 @@ body {
   right: 15px;
   width: 100px;
   height: 32px;
-  background: url("/lib/xxxx/new-tag.png");
+  background: url("new-tag.png");
 }
 
 .page-section .grid .sale-tag:before {
@@ -1248,7 +1234,7 @@ body {
   right: 15px;
   width: 100px;
   height: 32px;
-  background: url("/lib/xxxx/sale-tag.png");
+  background: url("sale-tag.png");
 }
 
 .page-section .grid .sale-tag .price {
@@ -1467,7 +1453,7 @@ body {
 .page-item .main .options, .page-item .description .options {
   position: absolute;
   right: 0;
-  width: 262px;
+  width: 300px;
   height: 500px;
   display: inline-block;
   text-align: left;
@@ -1546,6 +1532,7 @@ body {
 .page-item .description p {
   font-size: 12px;
   padding-bottom: 0px;
+  text-align: left;
 }
 
 .page-item .description h4 {
