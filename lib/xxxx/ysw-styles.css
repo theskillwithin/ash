@@ -766,11 +766,12 @@ header .top ul li.search {
 
 header .top ul li.search .input {
   display: inline-block;
+  margin: 0px 5px;
 }
 
 header .top ul li.search .input input {
   width: 125px;
-  height: 23px;
+  height: 20px;
 }
 
 header .top .under {
