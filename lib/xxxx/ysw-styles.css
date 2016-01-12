@@ -268,8 +268,7 @@ a {
   outline: 0;
 }
 
-a:hover,
-a:focus {
+a:hover, a:focus {
   color: #40a6ff;
 }
 
@@ -355,9 +354,7 @@ input[type="button"] {
   box-sizing: border-box;
 }
 
-.button:hover,
-.button:active,
-.button:focus,
+.button:hover, .button:active, .button:focus,
 button:hover,
 button:active,
 button:focus,
@@ -376,11 +373,9 @@ input[type="button"]:focus {
 }
 
 .name-lockup {
-  display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
@@ -391,9 +386,9 @@ input[type="button"]:focus {
   height: 80px;
   border-radius: 50%;
   margin-right: 10px;
-  -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
-  flex-shrink: 0;
+  -webkit-flex-shrink: 0;
+          flex-shrink: 0;
 }
 
 .fork-tag {
@@ -403,8 +398,7 @@ input[type="button"]:focus {
   background: #0074D9;
   color: white;
   padding: 2px 6px;
-  -webkit-transition: all 0.3s ease-in-out;
-          transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   -webkit-transform-origin: top right;
       -ms-transform-origin: top right;
           transform-origin: top right;
@@ -590,7 +584,6 @@ header .mobile2 form img {
 
 header .mobile2 form input {
   height: 20px;
-  width: -webkit-calc(100% - 30px);
   width: calc(100% - 30px);
   color: black;
 }
@@ -671,8 +664,7 @@ header .mobile .mobile-nav-toggle span:after {
   background-color: white;
   display: block;
   position: relative;
-  -webkit-transition: all 0.3s ease-in-out;
-          transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 header .mobile .mobile-nav-toggle span:before {
@@ -912,11 +904,9 @@ body {
 }
 
 .page-home section.newProducts {
-  display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -931,19 +921,15 @@ body {
 }
 
 .page-home .col {
-  display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
   -webkit-align-content: space-between;
       -ms-flex-line-pack: justify;
           align-content: space-between;
-  -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -967,11 +953,9 @@ body {
 }
 
 .page-home .sub-group {
-  display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: start;
   -webkit-align-items: flex-start;
       -ms-flex-align: start;
           align-items: flex-start;
@@ -1042,6 +1026,10 @@ body {
   position: relative;
   margin: 0px 10px;
   display: inline-block;
+}
+
+.page-home section.shopByStyle a .hover {
+  margin-bottom: 5px;
 }
 
 .page-home section.shopByStyle a .hover > div {
@@ -1318,22 +1306,26 @@ body {
   float: left;
 }
 
-.page-section-totallook section.totalLook a {
+.page-section-totallook section.totalLook div {
   position: relative;
   margin: 0px 10px;
   display: inline-block;
 }
 
-.page-section-totallook section.totalLook a .hover > div {
+.page-section-totallook section.totalLook div .hover > div {
   width: 100%;
-  left: 20%;
+  left: 5px;
   right: auto;
+  position: absolute;
 }
 
-.page-section-totallook section.totalLook a .hover > div div {
+.page-section-totallook section.totalLook div .hover > div a {
   font-size: 14px;
   margin-bottom: 20px;
   width: 100%;
+  display: block;
+  height: auto;
+  position: relative;
 }
 
 .page-section-totallook section.totalLook img.add {
@@ -1341,11 +1333,11 @@ body {
   right: 0;
 }
 
-.page-section-totallook section.totalLook a {
+.page-section-totallook section.totalLook a, .page-section-totallook section.totalLook div {
   position: relative;
 }
 
-.page-section-totallook section.totalLook a .hover {
+.page-section-totallook section.totalLook a .hover, .page-section-totallook section.totalLook div .hover {
   position: absolute;
   top: 10px;
   right: 10px;
@@ -1353,25 +1345,30 @@ body {
   bottom: 10px;
   background-color: rgba(0, 0, 0, 0.741);
   display: none;
+  margin: 0px;
+  margin-bottom: 5px;
 }
 
-.page-section-totallook section.totalLook a .hover h5, .page-section-totallook section.totalLook a .hover .price {
+.page-section-totallook section.totalLook a .hover h5, .page-section-totallook section.totalLook a .hover .price, .page-section-totallook section.totalLook div .hover h5, .page-section-totallook section.totalLook div .hover .price {
   color: white;
 }
 
-.page-section-totallook section.totalLook a .hover > div {
+.page-section-totallook section.totalLook a .hover > div, .page-section-totallook section.totalLook a .hover a, .page-section-totallook section.totalLook div .hover > div, .page-section-totallook section.totalLook div .hover a {
   position: absolute;
   bottom: 10px;
-  left: 15px;
+  top: 20px;
+  left: 0px;
+  right: 5px;
   display: block;
   text-align: left;
+  margin: 0px 2px;
 }
 
-.page-section-totallook section.totalLook a:hover .hover {
+.page-section-totallook section.totalLook a:hover .hover, .page-section-totallook section.totalLook div:hover .hover {
   display: block;
 }
 
-.page-section-totallook section.totalLook a h5 {
+.page-section-totallook section.totalLook a h5, .page-section-totallook section.totalLook div h5 {
   background: none;
 }
 
@@ -1728,8 +1725,7 @@ footer .right a {
     text-align: center;
     background-color: white;
     height: auto;
-    -webkit-transition: all 0.3s ease-in-out;
-            transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
   }
   header .left nav {
     padding-top: 0px;
@@ -1797,7 +1793,6 @@ footer .right a {
   header .left nav ul ul {
     margin: 0px;
     padding: 5px 0px;
-    width: -webkit-calc(100% + 2px);
     width: calc(100% + 2px);
     background-color: white;
     margin-left: -1px;
