@@ -108,8 +108,19 @@ header
 			font-size: 12px
 			> div
 				margin-bottom: 20px
+			.active
+				text-decoration: underline
 			ul
 				list-style-type: none
+				.down
+					display: none
+				ul
+					margin: 5px 0
+					text-decoration: none
+					display: none
+					a
+						color: grey
+						text-decoration: none
 			.menu-cat
 				text-decoration: underline
 	.top
@@ -157,10 +168,5 @@ header
 			line-height: .7
 			li:first-child
 				list-style-type: none
-.closed
-	top: -400px !important
-.open
-	top: 85px !important
-	display: block
 .hide
 	display: none !important

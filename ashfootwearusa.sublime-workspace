@@ -36,34 +36,18 @@
 	"buffers":
 	[
 		{
-			"file": "assets/css/4-pages/_item-main.sass",
-			"settings":
-			{
-				"buffer_size": 3316,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "lib/xxxx/ysw-core-scripts.js",
 			"settings":
 			{
-				"buffer_size": 1801,
+				"buffer_size": 3408,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 17004,
-				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "header.jade",
 			"settings":
 			{
-				"buffer_size": 1371,
+				"buffer_size": 1907,
 				"line_ending": "Windows"
 			}
 		},
@@ -71,8 +55,82 @@
 			"file": "assets/css/4-pages/_header-main.sass",
 			"settings":
 			{
-				"buffer_size": 3002,
+				"buffer_size": 3122,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/css/4-pages/_queries-788px.sass",
+			"settings":
+			{
+				"buffer_size": 2628,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<!-- SECTION SECTION SECTION SECTION SECTION SECTION SECTION-->\n    <div class=\"container\">\n      <div class=\"page-section-totallook\">\n        <section class=\"totalLook\"><a>\n                      <div class=\"hover\">\n                        <div>\n                          <div>\n                            <h5>AZIMUT</h5>\n                            <h5>Nappa Black</h5>\n                            <div class=\"price\">$000</div>\n                          </div>\n                          <div>\n                            <h5>AZIMUT</h5>\n                            <h5>Nappa Black</h5>\n                            <div class=\"price\">$000</div>\n                          </div>\n                          <div>\n                            <h5>AZIMUT</h5>\n                            <h5>Nappa Black</h5>\n                            <div class=\"price\">$000</div>\n                          </div>\n                          <div>\n                            <h5>AZIMUT</h5>\n                            <h5>Nappa Black</h5>\n                            <div class=\"price\">$000</div>\n                          </div>\n                        </div>\n                      </div><img src=\"lib/xxxx/add.png\" alt=\"Add To Cart\" class=\"add\"><img src=\"https://placehold.it/264x475\" alt=\"Shop By Style\"></a><a>\n                      <div class=\"hover\">\n                        <div>\n                          <div>\n                            <h5>AZIMUT</h5>\n                            <h5>Nappa Black</h5>\n                            <div class=\"price\">$000</div>\n                          </div>\n                          <div>\n                            <h5>AZIMUT</h5>\n                            <h5>Nappa Black</h5>\n                            <div class=\"price\">$000</div>\n                          </div>\n                          <div>\n                            <h5>AZIMUT</h5>\n                            <h5>Nappa Black</h5>\n                            <div class=\"price\">$000</div>\n                          </div>\n                          <div>\n                            <h5>AZIMUT</h5>\n                            <h5>Nappa Black</h5>\n                            <div class=\"price\">$000</div>\n                          </div>\n                        </div>\n                      </div><img src=\"lib/xxxx/add.png\" alt=\"Add To Cart\" class=\"add\"><img src=\"https://placehold.it/264x475\" alt=\"Shop By Style\"></a><a>\n                      <div class=\"hover\">\n                        <div>\n                          <div>\n                            <h5>AZIMUT</h5>\n                            <h5>Nappa Black</h5>\n                            <div class=\"price\">$000</div>\n                          </div>\n                          <div>\n                            <h5>AZIMUT</h5>\n                            <h5>Nappa Black</h5>\n                            <div class=\"price\">$000</div>\n                          </div>\n                          <div>\n                            <h5>AZIMUT</h5>\n                            <h5>Nappa Black</h5>\n                            <div class=\"price\">$000</div>\n                          </div>\n                          <div>\n                            <h5>AZIMUT</h5>\n                            <h5>Nappa Black</h5>\n                            <div class=\"price\">$000</div>\n                          </div>\n                        </div>\n                      </div><img src=\"lib/xxxx/add.png\" alt=\"Add To Cart\" class=\"add\"><img src=\"https://placehold.it/264x475\" alt=\"Shop By Style\"></a><a>\n                      <div class=\"hover\">\n                        <div>\n                          <div>\n                            <h5>AZIMUT</h5>\n                            <h5>Nappa Black</h5>\n                            <div class=\"price\">$000</div>\n                          </div>\n                          <div>\n                            <h5>AZIMUT</h5>\n                            <h5>Nappa Black</h5>\n                            <div class=\"price\">$000</div>\n                          </div>\n                          <div>\n                            <h5>AZIMUT</h5>\n                            <h5>Nappa Black</h5>\n                            <div class=\"price\">$000</div>\n                          </div>\n                          <div>\n                            <h5>AZIMUT</h5>\n                            <h5>Nappa Black</h5>\n                            <div class=\"price\">$000</div>\n                          </div>\n                        </div>\n                      </div><img src=\"lib/xxxx/add.png\" alt=\"Add To Cart\" class=\"add\"><img src=\"https://placehold.it/264x475\" alt=\"Shop By Style\"></a><a>\n                      <div class=\"hover\">\n                        <div>\n                          <div>\n                            <h5>AZIMUT</h5>\n                            <h5>Nappa Black</h5>\n                            <div class=\"price\">$000</div>\n                          </div>\n                          <div>\n                            <h5>AZIMUT</h5>\n                            <h5>Nappa Black</h5>\n                            <div class=\"price\">$000</div>\n                          </div>\n                          <div>\n                            <h5>AZIMUT</h5>\n                            <h5>Nappa Black</h5>\n                            <div class=\"price\">$000</div>\n                          </div>\n                          <div>\n                            <h5>AZIMUT</h5>\n                            <h5>Nappa Black</h5>\n                            <div class=\"price\">$000</div>\n                          </div>\n                        </div>\n                      </div><img src=\"lib/xxxx/add.png\" alt=\"Add To Cart\" class=\"add\"><img src=\"https://placehold.it/264x475\" alt=\"Shop By Style\"></a><a>\n                      <div class=\"hover\">\n                        <div>\n                          <div>\n                            <h5>AZIMUT</h5>\n                            <h5>Nappa Black</h5>\n                            <div class=\"price\">$000</div>\n                          </div>\n                          <div>\n                            <h5>AZIMUT</h5>\n                            <h5>Nappa Black</h5>\n                            <div class=\"price\">$000</div>\n                          </div>\n                          <div>\n                            <h5>AZIMUT</h5>\n                            <h5>Nappa Black</h5>\n                            <div class=\"price\">$000</div>\n                          </div>\n                          <div>\n                            <h5>AZIMUT</h5>\n                            <h5>Nappa Black</h5>\n                            <div class=\"price\">$000</div>\n                          </div>\n                        </div>\n                      </div><img src=\"lib/xxxx/add.png\" alt=\"Add To Cart\" class=\"add\"><img src=\"https://placehold.it/264x475\" alt=\"Shop By Style\"></a><a>\n                      <div class=\"hover\">\n                        <div>\n                          <div>\n                            <h5>AZIMUT</h5>\n                            <h5>Nappa Black</h5>\n                            <div class=\"price\">$000</div>\n                          </div>\n                          <div>\n                            <h5>AZIMUT</h5>\n                            <h5>Nappa Black</h5>\n                            <div class=\"price\">$000</div>\n                          </div>\n                          <div>\n                            <h5>AZIMUT</h5>\n                            <h5>Nappa Black</h5>\n                            <div class=\"price\">$000</div>\n                          </div>\n                          <div>\n                            <h5>AZIMUT</h5>\n                            <h5>Nappa Black</h5>\n                            <div class=\"price\">$000</div>\n                          </div>\n                        </div>\n                      </div><img src=\"lib/xxxx/add.png\" alt=\"Add To Cart\" class=\"add\"><img src=\"https://placehold.it/264x475\" alt=\"Shop By Style\"></a><a>\n                      <div class=\"hover\">\n                        <div>\n                          <div>\n                            <h5>AZIMUT</h5>\n                            <h5>Nappa Black</h5>\n                            <div class=\"price\">$000</div>\n                          </div>\n                          <div>\n                            <h5>AZIMUT</h5>\n                            <h5>Nappa Black</h5>\n                            <div class=\"price\">$000</div>\n                          </div>\n                          <div>\n                            <h5>AZIMUT</h5>\n                            <h5>Nappa Black</h5>\n                            <div class=\"price\">$000</div>\n                          </div>\n                          <div>\n                            <h5>AZIMUT</h5>\n                            <h5>Nappa Black</h5>\n                            <div class=\"price\">$000</div>\n                          </div>\n                        </div>\n                      </div><img src=\"lib/xxxx/add.png\" alt=\"Add To Cart\" class=\"add\"><img src=\"https://placehold.it/264x475\" alt=\"Shop By Style\"></a><a>\n                      <div class=\"hover\">\n                        <div>\n                          <div>\n                            <h5>AZIMUT</h5>\n                            <h5>Nappa Black</h5>\n                            <div class=\"price\">$000</div>\n                          </div>\n                          <div>\n                            <h5>AZIMUT</h5>\n                            <h5>Nappa Black</h5>\n                            <div class=\"price\">$000</div>\n                          </div>\n                          <div>\n                            <h5>AZIMUT</h5>\n                            <h5>Nappa Black</h5>\n                            <div class=\"price\">$000</div>\n                          </div>\n                          <div>\n                            <h5>AZIMUT</h5>\n                            <h5>Nappa Black</h5>\n                            <div class=\"price\">$000</div>\n                          </div>\n                        </div>\n                      </div><img src=\"lib/xxxx/add.png\" alt=\"Add To Cart\" class=\"add\"><img src=\"https://placehold.it/264x475\" alt=\"Shop By Style\"></a><a>\n                      <div class=\"hover\">\n                        <div>\n                          <div>\n                            <h5>AZIMUT</h5>\n                            <h5>Nappa Black</h5>\n                            <div class=\"price\">$000</div>\n                          </div>\n                          <div>\n                            <h5>AZIMUT</h5>\n                            <h5>Nappa Black</h5>\n                            <div class=\"price\">$000</div>\n                          </div>\n                          <div>\n                            <h5>AZIMUT</h5>\n                            <h5>Nappa Black</h5>\n                            <div class=\"price\">$000</div>\n                          </div>\n                          <div>\n                            <h5>AZIMUT</h5>\n                            <h5>Nappa Black</h5>\n                            <div class=\"price\">$000</div>\n                          </div>\n                        </div>\n                      </div><img src=\"lib/xxxx/add.png\" alt=\"Add To Cart\" class=\"add\"><img src=\"https://placehold.it/264x475\" alt=\"Shop By Style\"></a><a>\n                      <div class=\"hover\">\n                        <div>\n                          <div>\n                            <h5>AZIMUT</h5>\n                            <h5>Nappa Black</h5>\n                            <div class=\"price\">$000</div>\n                          </div>\n                          <div>\n                            <h5>AZIMUT</h5>\n                            <h5>Nappa Black</h5>\n                            <div class=\"price\">$000</div>\n                          </div>\n                          <div>\n                            <h5>AZIMUT</h5>\n                            <h5>Nappa Black</h5>\n                            <div class=\"price\">$000</div>\n                          </div>\n                          <div>\n                            <h5>AZIMUT</h5>\n                            <h5>Nappa Black</h5>\n                            <div class=\"price\">$000</div>\n                          </div>\n                        </div>\n                      </div><img src=\"lib/xxxx/add.png\" alt=\"Add To Cart\" class=\"add\"><img src=\"https://placehold.it/264x475\" alt=\"Shop By Style\"></a><a>\n                      <div class=\"hover\">\n                        <div>\n                          <div>\n                            <h5>AZIMUT</h5>\n                            <h5>Nappa Black</h5>\n                            <div class=\"price\">$000</div>\n                          </div>\n                          <div>\n                            <h5>AZIMUT</h5>\n                            <h5>Nappa Black</h5>\n                            <div class=\"price\">$000</div>\n                          </div>\n                          <div>\n                            <h5>AZIMUT</h5>\n                            <h5>Nappa Black</h5>\n                            <div class=\"price\">$000</div>\n                          </div>\n                          <div>\n                            <h5>AZIMUT</h5>\n                            <h5>Nappa Black</h5>\n                            <div class=\"price\">$000</div>\n                          </div>\n                        </div>\n                      </div><img src=\"lib/xxxx/add.png\" alt=\"Add To Cart\" class=\"add\"><img src=\"https://placehold.it/264x475\" alt=\"Shop By Style\"></a>\n        </section>\n      </div>\n      <!-- SECTION SECTION SECTION SECTION SECTION SECTION SECTION-->",
+			"settings":
+			{
+				"buffer_size": 13724,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<div class=\"col\"><a href=\"#\" class=\"item col-item first-item\">\n              <div class=\"hover\">\n                <div>\n                  <h5>AZIMUT</h5>\n                  <h5>Nappa Black</h5>\n                  <div class=\"price\">$000</div>\n                </div>\n              </div><img src=\"https://placehold.it/243x243\" alt=\"new product\"></a>\n<a href=\"#\" class=\"item col-item\">\n              <div class=\"hover\">\n                <div>\n                  <h5>AZIMUT</h5>\n                  <h5>Nappa Black</h5>\n                  <div class=\"price\">$000</div>\n                </div>\n              </div><img src=\"https://placehold.it/243x243\" alt=\"new product\"></a></div><a href=\"#\" class=\"full\">\n            <div class=\"hover\">\n              <div>\n                <h5>AZIMUT</h5>\n                <h5>Nappa Black</h5>\n                <div class=\"price\">$000</div>\n              </div>\n            </div><img src=\"https://placehold.it/145x536\" alt=\"new product\"></a>\n          <div class=\"col\">\n            <div class=\"item sub-group first-item\"><a href=\"#\" class=\"item sub-item col-item\">\n                <div class=\"hover\">\n                  <div>\n                    <h5>AZIMUT</h5>\n                    <h5>Nappa Black</h5>\n                    <div class=\"price\">$000</div>\n                  </div>\n                </div><img src=\"https://placehold.it/146x244\" alt=\"new product\"></a><a href=\"#\" class=\"item sub-item col-item\">\n                <div class=\"hover\">\n                  <div>\n                    <h5>AZIMUT</h5>\n                    <h5>Nappa Black</h5>\n                    <div class=\"price\">$000</div>\n                  </div>\n                </div><img src=\"https://placehold.it/256x256\" alt=\"new product\"></a></div><a href=\"#\" class=\"item col-item\">\n              <div class=\"hover\">\n                <div>\n                  <h5>AZIMUT</h5>\n                  <h5>Nappa Black</h5>\n                  <div class=\"price\">$000</div>\n                </div>\n              </div><img src=\"https://placehold.it/436x239\" alt=\"new product\"></a>\n          </div>",
+			"settings":
+			{
+				"buffer_size": 2063,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "ash-bowie-blue-denim-s16  new-product1\nash-imagine-blacksapphire	new-product2\nash-jam-greyblack-sneaker-s16	new-product3\nash-cyrus-blackarmy	new-product4\nthelma-s13-black	New-product5\nash-impuls-midnight-black-f15	new-product6\n\n\n[cmd type='loop' field='ysw-new-productid1' html='home-newproduct1' cond='(ysw-new-productid1 exists)']\n[cmd type='loop' field='ysw-new-productid2' html='home-newproduct2' cond='(ysw-new-productid2 exists)']\n[cmd type='loop' field='ysw-new-productid3' html='home-newproduct3' cond='(ysw-new-productid3 exists)']\n[cmd type='loop' field='ysw-new-productid4' html='home-newproduct4' cond='(ysw-new-productid4 exists)']\n[cmd type='loop' field='ysw-new-productid5' html='home-newproduct5' cond='(ysw-new-productid5 exists)']\n[cmd type='loop' field='ysw-new-productid6' html='home-newproduct6' cond='(ysw-new-productid6 exists)']\n\n<a href=\"[data field='url']\" class=\"item col-item\">\n              <div class=\"hover\">\n                <div>\n                  <h5>[data field='name']</h5>\n                  <h5>[data field='color']</h5>\n                  <div class=\"price\">[data field='price']</div>\n                </div>\n              </div><img src=\"[data field='new-product1' fmt='src']\" alt=\"[data field='name']\"></a></div>\n\n<a href=\"[data field='url']\" class=\"item col-item\">\n              <div class=\"hover\">\n                <div>\n                  <h5>[data field='name']</h5>\n                  <h5>[data field='color']</h5>\n                  <div class=\"price\">[data field='price']</div>\n                </div>\n              </div><img src=\"[data field='new-product6' fmt='src']\" alt=\"[data field='name']\"></a>\n          </div>",
+			"settings":
+			{
+				"buffer_size": 1657,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/css/4-pages/_homepage-main.sass",
+			"settings":
+			{
+				"buffer_size": 5314,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 18077,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.jade",
+			"settings":
+			{
+				"buffer_size": 4488,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<div class=\"box\"><img src=\"https://placehold.it/262x240\" alt=\"Product\">\n                          <div class=\"description\">\n                            <div class=\"first\">\n                              <h5>AZIMUT</h5>\n                              <h5>Nappa Black</h5>\n                              <div class=\"price\">$000</div>\n                            </div>\n                            <div class=\"last\">\n                              <input type=\"button\" value=\"Add To Cart\">\n                            </div>\n                          </div>\n                        </div>\n                        <div class=\"box new-tag\"><img src=\"https://placehold.it/262x240\" alt=\"Product\">\n                          <div class=\"description\">\n                            <div class=\"first\">\n                              <h5>AZIMUT</h5>\n                              <h5>Nappa Black</h5>\n                              <div class=\"price\">$000</div>\n                            </div>\n                            <div class=\"last\">\n                              <input type=\"button\" value=\"Add To Cart\">\n                            </div>\n                          </div>\n                        </div>\n                        <div class=\"box\"><img src=\"https://placehold.it/262x240\" alt=\"Product\">\n                          <div class=\"description\">\n                            <div class=\"first\">\n                              <h5>AZIMUT</h5>\n                              <h5>Nappa Black</h5>\n                              <div class=\"price\">$000</div>\n                            </div>\n                            <div class=\"last\">\n                              <input type=\"button\" value=\"Add To Cart\">\n                            </div>\n                          </div>\n                        </div>\n                        <div class=\"box\"><img src=\"https://placehold.it/262x240\" alt=\"Product\">\n                          <div class=\"description\">\n                            <div class=\"first\">\n                              <h5>AZIMUT</h5>\n                              <h5>Nappa Black</h5>\n                              <div class=\"price\">$000</div>\n                            </div>\n                            <div class=\"last\">\n                              <input type=\"button\" value=\"Add To Cart\">\n                            </div>\n                          </div>\n                        </div>\n            <div class=\"box sale-tag\"><img src=\"https://placehold.it/262x240\" alt=\"Product\">\n              <div class=\"description\">\n                <div class=\"first\">\n                  <h5>AZIMUT</h5>\n                  <h5>Nappa Black</h5>\n                  <div class=\"price\">$000</div>\n                  <div class=\"sale-price\">$111</div>\n                </div>\n                <div class=\"last\">\n                  <input type=\"button\" value=\"Add To Cart\">\n                </div>\n              </div>\n            </div>\n                        <div class=\"box\"><img src=\"https://placehold.it/262x240\" alt=\"Product\">\n                          <div class=\"description\">\n                            <div class=\"first\">\n                              <h5>AZIMUT</h5>\n                              <h5>Nappa Black</h5>\n                              <div class=\"price\">$000</div>\n                            </div>\n                            <div class=\"last\">\n                              <input type=\"button\" value=\"Add To Cart\">\n                            </div>\n                          </div>\n                        </div>\n          </div>",
+			"settings":
+			{
+				"buffer_size": 3554,
+				"line_ending": "Windows",
+				"name": "<div class=\"box\"><img src=\"https://placehold.it/26"
+			}
+		},
+		{
+			"contents": "ash-dream-black-boot ash-dreamlace-black-sneaker-s16 ash-dreamlace-white-sneaker-s16 ash-dynamite-marble-fabric-s16 ash-dynamite-sapphire-fabric-s16 ash-extra-white-sneaker-s16",
+			"settings":
+			{
+				"buffer_size": 176,
+				"line_ending": "Windows",
+				"name": "ash-dream-black-boot ash-dreamlace-black-sneaker-s"
 			}
 		}
 	],
@@ -90,6 +148,10 @@
 			[
 				"html",
 				"Set Syntax: HTML"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
 			],
 			[
 				"install",
@@ -148,10 +210,23 @@
 		"/C/Users/Austin/Documents/ashfootwearusa",
 		"/C/Users/Austin/Documents/ashfootwearusa/assets",
 		"/C/Users/Austin/Documents/ashfootwearusa/assets/css",
+		"/C/Users/Austin/Documents/ashfootwearusa/assets/css/1-tools",
+		"/C/Users/Austin/Documents/ashfootwearusa/assets/css/1-tools/bourbon",
+		"/C/Users/Austin/Documents/ashfootwearusa/assets/css/3-modules",
 		"/C/Users/Austin/Documents/ashfootwearusa/assets/css/4-pages"
 	],
 	"file_history":
 	[
+		"/C/Users/Austin/Documents/ashfootwearusa/assets/css/3-modules/_aspect-ratio.scss",
+		"/C/Users/Austin/Documents/ashfootwearusa/index.html",
+		"/C/Users/Austin/Documents/ashfootwearusa/assets/css/ysw-styles.sass",
+		"/C/Users/Austin/Documents/ashfootwearusa/head.html",
+		"/C/Users/Austin/Documents/ashfootwearusa/totallook.html",
+		"/C/Users/Austin/Documents/ashfootwearusa/assets/css/4-pages/_item-main.sass",
+		"/C/Users/Austin/Documents/ashfootwearusa/assets/css/4-pages/_header-main.sass",
+		"/C/Users/Austin/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Austin/AppData/Roaming/Sublime Text 3/Packages/User/JavascriptBeautify.sublime-settings",
+		"/C/Users/Austin/AppData/Roaming/Sublime Text 3/Packages/JSHint Gutter/JSHint.sublime-settings",
 		"/C/Users/Austin/AppData/Local/Temp/fz3temp-2/ysw-mobile.css",
 		"/C/Users/Austin/Documents/ashfootwearusa/lib/xxxx/ysw-core-scripts.js",
 		"/C/Users/Austin/Documents/ysw-core-scripts.js",
@@ -163,17 +238,12 @@
 		"/C/Users/Austin/Documents/ashfootwearusa/.htaccess",
 		"/C/Users/Austin/Documents/yswSelect.js",
 		"/C/Users/Austin/Documents/ashfootwearusa/item.html",
-		"/C/Users/Austin/Documents/ashfootwearusa/index.html",
-		"/C/Users/Austin/Documents/ashfootwearusa/totallook.html",
-		"/C/Users/Austin/Documents/ashfootwearusa/assets/css/4-pages/_item-main.sass",
 		"/C/Users/Austin/Documents/ashfootwearusa/header.jade",
 		"/C/Users/Austin/Documents/ashfootwearusa/item.jade",
 		"/C/Users/Austin/Documents/ashfootwearusa/index.jade",
-		"/C/Users/Austin/Documents/ashfootwearusa/assets/css/4-pages/_header-main.sass",
 		"/C/Users/Austin/Documents/jquery.fancybox-thumbs.css",
 		"/C/Users/Austin/Documents/cloudzoom.js",
 		"/C/Users/Austin/Documents/ashfootwearusa/README.md",
-		"/C/Users/Austin/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/C/Users/Austin/Documents/ashfootwearusa/assets/css/4-pages/_homepage-main.sass",
 		"/C/Users/Austin/Documents/ashfootwearusa/assets/css/4-pages/_queries-788px.sass",
 		"/C/Users/Austin/Documents/ashfootwearusa/assets/css/4-pages/_footer-main.sass",
@@ -188,7 +258,6 @@
 		"/C/Users/Austin/Google Drive/TallMenShoes/item.jade",
 		"/C/Users/Austin/Documents/ashfootwearusa/assets/css/1-tools/_vars.sass",
 		"/C/Users/Austin/Documents/ashfootwearusa/assets/css/2-basics/_buttons.sass",
-		"/C/Users/Austin/Documents/ashfootwearusa/assets/css/ysw-styles.sass",
 		"/C/Users/Austin/Documents/ashfootwearusa/footer.jade",
 		"/C/Users/Austin/Documents/Ysw-Starter-Kit/header.jade",
 		"/C/Users/Austin/Desktop/build-starter-files/includes/head.inc.php",
@@ -275,11 +344,7 @@
 		"/C/Users/Austin/Google Drive/Template1/lib/xxxx/css/4-pages/header.sass",
 		"/Z/rtml/v4/Alt-Tag (Included in V3)/ysw-alt-tag.rtml",
 		"/C/Users/Austin/Desktop/yswSelect.js",
-		"/C/Users/Austin/Downloads/ext-yswIC.js",
-		"/C/Users/Austin/Downloads/ysw-cart.css",
-		"/C/Users/Austin/Downloads/ysw-cart.js",
-		"/C/Users/Austin/Downloads/ysw-main.css",
-		"/C/Users/Austin/Downloads/yswmain.js"
+		"/C/Users/Austin/Downloads/ext-yswIC.js"
 	],
 	"find":
 	{
@@ -298,6 +363,42 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"box",
+			".box",
+			"lass=\"col\"><a ",
+			"max-height",
+			".full",
+			"flex",
+			"border",
+			".col",
+			".hover",
+			"padding",
+			" \n",
+			":first-child",
+			"margin-bottom",
+			"full",
+			"display",
+			"menuAction",
+			"hamburger",
+			"themenu.hasClass('open')",
+			"console",
+			".off",
+			"hamburger",
+			"themenu",
+			"body",
+			"menuAction",
+			"menuClose",
+			"mheight",
+			"$(window)",
+			"#hidden-select select",
+			"nav()",
+			"click",
+			"open",
+			"closed",
+			"open",
+			"788",
+			"nav",
+			"other remarks",
 			"search",
 			"serach",
 			"search",
@@ -389,43 +490,7 @@
 			"<body",
 			"jquery",
 			"<link>",
-			"</link>",
-			"#yahoo-store-checkout #ys_cart > table > tbody > tr.ys_orderLine.ys_evenRow > td.ys_last.r {",
-			"#yahoo-store-checkout #ys_cart > table > tbody > tr.ys_orderLine.ys_evenRow > td.ys_first {",
-			"(window).width",
-			"1110",
-			"featshopnow",
-			"jQuery('#ys_cart > table > tbody > tr.ys_orderLine.ys_evenRow > td.ys_first').attr('colspan',3);",
-			"yswOR",
-			"copyright",
-			"Â",
-			"copyright",
-			"ys_pageActions",
-			"ys_first",
-			"parse",
-			"idVal",
-			"idVal'",
-			"idVal",
-			"Copyright",
-			"copyright",
-			"Copyright © 2005 - 2013 American Pearl. All rights reserved",
-			"Copyright",
-			"console.log",
-			".click",
-			"change",
-			"change()",
-			"selectDataAndChange",
-			"div#info-table-area",
-			".row",
-			"div#image-area",
-			"div#info-table-area",
-			"yswIC.aE",
-			"internation",
-			"global",
-			"yswIC",
-			"#ys_shippingCalculator",
-			"ys_proceedContainer",
-			"#product-info-table td"
+			"</link>"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -433,6 +498,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"menuAction",
 			".left",
 			"",
 			"\"#\"",
@@ -453,113 +519,24 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 11,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "assets/css/4-pages/_item-main.sass",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3316,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								715,
-								715
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 552.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "lib/xxxx/ysw-core-scripts.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1801,
+						"buffer_size": 3408,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1006,
-								1006
+								335,
+								335
 							]
 						],
 						"settings":
@@ -567,26 +544,16 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
@@ -597,31 +564,41 @@
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
-								"bh_tag_content"
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
@@ -632,24 +609,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "index.html",
-					"semi_transient": true,
+					"buffer": 1,
+					"file": "header.jade",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 17004,
+						"buffer_size": 1907,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3023,
-								3023
+								1371,
+								1371
 							]
 						],
 						"settings":
@@ -657,26 +634,16 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
@@ -687,31 +654,695 @@
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
-								"bh_tag_content"
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1380.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "assets/css/4-pages/_header-main.sass",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3122,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 966.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "assets/css/4-pages/_queries-788px.sass",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2628,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2403,
+								2403
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1863.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13724,
+						"regions":
+						{
+							"TagLint":
+							{
+								"flags": 2356,
+								"icon": "dot",
+								"regions":
+								[
+									[
+										69,
+										72
+									]
+								],
+								"scope": "variable.parameter"
+							}
+						},
+						"selection":
+						[
+							[
+								12792,
+								12792
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
+							"default_dir": "C:\\Users\\Austin\\Documents\\ashfootwearusa",
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 6158.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2063,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								711,
+								711
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
+							"default_dir": "C:\\Users\\Austin\\Documents\\ashfootwearusa",
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 207.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1657,
+						"regions":
+						{
+							"TagLint":
+							{
+								"flags": 2356,
+								"icon": "dot",
+								"regions":
+								[
+									[
+										1653,
+										1656
+									]
+								],
+								"scope": "variable.parameter"
+							}
+						},
+						"selection":
+						[
+							[
+								1657,
+								1657
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
+							"default_dir": "C:\\Users\\Austin\\Documents\\ashfootwearusa",
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "assets/css/4-pages/_homepage-main.sass",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5314,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2538,
+								2529
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2392.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18077,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5822,
+								5822
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
 							"is_xml": false,
@@ -720,116 +1351,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1449.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "header.jade",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1371,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								698,
-								698
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
-							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 483.0,
+						"translation.y": 2392.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "assets/css/4-pages/_header-main.sass",
+					"buffer": 9,
+					"file": "index.jade",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3002,
+						"buffer_size": 4488,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2635,
-								2635
+								1822,
+								1822
 							]
 						],
 						"settings":
@@ -837,26 +1379,16 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
@@ -867,41 +1399,244 @@
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
-								"bh_tag_content"
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2691.0,
+						"translation.y": 1014.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3554,
+						"regions":
+						{
+							"TagLint":
+							{
+								"flags": 2356,
+								"icon": "dot",
+								"regions":
+								[
+									[
+										3550,
+										3553
+									]
+								],
+								"scope": "variable.parameter"
+							}
+						},
+						"selection":
+						[
+							[
+								12,
+								15
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_name": "<div class=\"box\"><img src=\"https://placehold.it/26",
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"default_dir": "C:\\Users\\Austin\\Documents\\ashfootwearusa",
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 176,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								176,
+								173
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_name": "ash-dream-black-boot ash-dreamlace-black-sneaker-s",
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"default_dir": "C:\\Users\\Austin\\Documents\\ashfootwearusa",
+							"is_xml": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -959,6 +1694,18 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"index",
+				"index.jade"
+			],
+			[
+				"head",
+				"assets\\css\\4-pages\\_header-main.sass"
+			],
+			[
+				"header",
+				"assets\\css\\4-pages\\_header-main.sass"
+			],
 			[
 				"ysw-scripts",
 				"lib\\xxxx\\ysw-core-scripts.js"
