@@ -39,16 +39,58 @@
 				text-decoration: underline
 			.logo
 				display: none
-			ul 
-				margin-bottom: 0px
+			nav
+				ul 
+					margin-bottom: 0px
+					li
+						position: relative 
+						.down
+							display: block
+							height: 25px
+							width: 28px
+							//background-color: blue
+							position: absolute
+							right: 6px
+							top: 3px
+							span
+								transform-origin: top left
+								width: 24px
+								height: 1px
+								position: relative
+								top: 0px
+								border-top: 1px solid #999
+								display: block
+								position: absolute
+								left: 1px
+								transform: rotate(56deg)
+								&:last-child
+									transform: rotate(-56deg)
+									transform-origin: bottom right
+									left: auto
+									right: 0
+									margin-top: 0px
+									margin-left: -3px
+					ul
+						margin: 0px
+						padding: 5px 0px
+						width: calc(100% + 2px)
+						background-color: white
+						margin-left: -1px
+						border-top: 1px solid black
+						border-bottom: 1px solid black
+						display: none
+						a 
+							height: auto
+							border: none
 			li 
-				height: 30px
+				height: auto
 				a 
-					height: 100%
+					height: 30px
 					width: 100%
 					padding-top: 6px
 					display: block !important
 					color: black
+					border: 1px solid black
 					&:hover
 						background-color: darken(#FFF, 5%)
 		background-color: #ebebeb

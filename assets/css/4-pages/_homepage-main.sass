@@ -68,33 +68,68 @@ body
   section.newProducts //// NEW PRODUCTS
     display: flex
     justify-content: space-between
-    height: 544px
+    //height: 544px
+    height: auto
+    align-content: space-between
   .full
-    flex: 2
-    margin: 0.15em 30px !important
+    //flex: 2
+    margin: 0px 20px 
   .col
     display: flex
-    flex: 2
+    //flex: 2
     flex-direction: column
+    align-content: space-between
+    justify-content: space-between
+    //height: 544px
     &:last-child
-      flex: 3
+      //flex: 3
+    img
+      max-width: 100% !important
+      height: auto !important
+    a 
+      overflow: none
   .col-item
-    flex: 2
-    padding: 10px
+    //flex: 2
+    padding: 0px
     height: auto
+    //max-height: 231px
+    align-self: flex-start
   .sub-group
     display: flex
+    align-items: flex-start
+    a 
+      align-self: flex-start
+      flex-basis: auto
     .item:first-child
-      margin-right: 30px
+      //margin-right: 30px
   .sub-item
-    flex: 2
+    //flex: 3
     &:first-child
-      flex: 2
-  .col-item, .full
-      border: 2px solid black
+      //flex: 2
+  .col-item
       margin: 0.15em
+      border: 2px solid black
   .first-item 
-    margin-bottom: 44px
+    //margin-bottom: 30px
+  .p243x243, .p256x256
+    padding-bottom: 0%
+    img
+      margin-bottom: -7px
+  .p146x244
+    //+aspect-ratio(249 146)
+    //padding-bottom: calc(146/249*100%) !important
+    width: auto
+    img 
+      margin-bottom: -6.5px
+  .p436x239
+    +aspect-ratio(436 249)
+    display: block
+    img
+      margin-bottom: -7px
+      margin-right: -5px
+      display: block
+
+
   section.bestSellers   /// BEST SELLERS
     text-align: center
     a
@@ -113,6 +148,7 @@ body
       margin: 0px 10px
       display: inline-block
       .hover
+        margin-bottom: 5px
         > div
           width: 100%
           left: 20%
